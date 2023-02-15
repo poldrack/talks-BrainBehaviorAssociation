@@ -1,5 +1,5 @@
 ---
-title: "Talk template" 
+title: "Improving the interpretability and validity of brain-behavior relations" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -7,7 +7,7 @@ title-slide-attributes:
     data-background-opacity: "0.5"
 format:
   revealjs: 
-    footer: "https://poldrack.github.io/talks-template/"
+    footer: "https://poldrack.github.io/talks-BrainBehaviorAssociation/"
     slide-number: true
     chalkboard: 
       buttons: false
@@ -17,4 +17,470 @@ format:
     width: 1920
 ---
 
-## Template slide
+## 
+
+![](./images/brain_behavior_scatterplot.png){.absolute top=15% left=20% height=80%}
+
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+What do correlations between brain function/structure and behavior mean?
+:::
+
+
+##  
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+How does neural computation relate to behavior?
+:::
+
+![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
+
+::: {.absolute top=80% left=5% style="font-size: 1em; text-align: center;"}
+George et al., 2020
+:::
+
+
+##  
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+How does neural computation relate to behavior?
+:::
+
+![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
+
+::: {.absolute top=80% left=5% style="font-size: 1em; text-align: center;"}
+George et al., 2020
+:::
+
+::: {.absolute top=30% left=35% style="font-size: 6em; text-align: center;"}
+&rarr;
+:::
+
+![](./images/pavlovs_dogz.jpg){.absolute top=20% left=50% height=70%}
+
+::: {.absolute top=95% left=65% style="font-size: 1.5em; text-align: center;"}
+Pavlov's Dogz
+:::
+
+## 
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+How do differences in neural computation relate to differences in behavior?
+:::
+
+![](./images/guitar_distribution.png){.absolute top=30% left=0%  height=65%}
+
+
+![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=50%}
+
+::: {.absolute top=25% left=30% style="font-size: 6em; text-align: center;"}
+?
+:::
+
+
+## 
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+What can imaging signals tell us about differences in neural computation?
+:::
+
+![](./images/ngs_map.png){.absolute top=25% left=10% height=65%}
+
+::: {.absolute top=90% left=8% style="font-size: 1.5em; text-align: center;"}
+"Neural Guitar Signature"
+:::
+
+
+## 
+
+
+![](./images/ngs.png){.absolute top=15% left=50% height=90%}
+
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+What can imaging signals tell us about differences in neural computation?
+:::
+
+![](./images/ngs_map.png){.absolute top=25% left=10% height=65%}
+
+::: {.absolute top=90% left=8% style="font-size: 1.5em; text-align: center;"}
+"Neural Guitar Signature"
+:::
+
+
+## 
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Functional imaging and neural computation: 
+
+It's complicated
+:::
+
+![](./images/logothetis_2008_fig2.png){.absolute top=20% left=10% height=80%}
+
+::: {.absolute top=98% left=75% style="font-size: 1em; text-align: center;"}
+Logothetis, 2008
+:::
+
+##
+
+::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
+How might differences in neural computation give rise to differences in fMRI signals?
+:::
+
+## 
+
+![](./images/rate_stim_intensity.png){.absolute top=25% left=10% height=70%}
+
+
+::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
+How might differences in neural computation give rise to differences in fMRI signals?
+
+Difference in intensity of neural activity
+:::
+
+
+##
+
+![](./images/rate_stim_duration.png){.absolute top=25% left=10% height=70%}
+
+
+::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
+How might differences in neural computation give rise to differences in fMRI signals?
+
+Difference in duration of neural activity
+:::
+
+
+## 
+
+::: {.absolute top=40% left=5% style="font-size: 1.8em; text-align: center;"}
+Changes in rate vs. duration of neural firing are indistinguishable in fMRI
+:::
+
+##
+
+::: {.absolute top=0% left=15% style="font-size: 2em; text-align: center;"}
+Same duration, different amplitude
+:::
+
+![](./images/intensity_conv.png){.absolute top=15% left=20% height=80%}
+
+##
+
+::: {.absolute top=0% left=15% style="font-size: 2em; text-align: center;"}
+Same amplitude, different duration
+:::
+
+![](./images/duration_conv.png){.absolute top=15% left=20% height=80%}
+
+
+
+##
+
+![](./images/intensity_duration_conv.png){.absolute top=15% left=20% height=80%}
+
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
+The effects of amplitude and duration are indistinguishable in the fMRI signal
+:::
+
+
+
+
+## 
+
+::: {.absolute top=0% left=20% style="font-size: 2em; text-align: center;"}
+The response time paradox
+:::
+
+::: {.absolute top=30% left=0% style="font-size: 1.5em; text-align: center;"}
+- In cognitive psychology, differences in RT are the measure of interest
+  - Thus, nearly all task comparisons will exhibit a difference in RT
+:::
+
+::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+## 
+
+::: {.absolute top=0% left=20% style="font-size: 2em; text-align: center;"}
+The response time paradox
+:::
+
+::: {.absolute top=30% left=0% style="font-size: 1.5em; text-align: center;"}
+- From the standpoint of fMRI, these same RT differences reflect a potential confound
+  - We can't tell whether the differences in activation are truly due to differences in neural computation, or simply due to "time on task"
+:::
+
+::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+## 
+
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
+Response time correlates in fMRI are very strong
+:::
+
+
+![](./images/conjunction_avg_rt_effect_across_7tasks_3row_plot.png){.absolute top=12% left=45% height=85%}
+
+![](./images/yarkoni_RT_corr.png){.absolute top=20% left=0% height=70%}
+
+
+::: {.absolute top=100% left=15% style="font-size: 1em; text-align: center;"}
+Yarkoni et al., 2009
+:::
+
+::: {.absolute top=100% left=65% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+## 
+
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
+Solution: Model RT at the first level
+:::
+
+![](./images/model_explainer_new.png-1.png){.absolute top=15% left=0% height=55%}
+
+::: {.absolute top=20% left=70% style="font-size: 3em; text-align: center;"}
+&larr;
+:::
+
+::: {.absolute top=22% left=80% style="font-size: 1.2em; text-align: center;"}
+The standard model
+:::
+
+
+::: {.absolute top=35% left=70% style="font-size: 3em; text-align: center;"}
+&larr;
+:::
+
+::: {.absolute top=37% left=80% style="font-size: 1.2em; text-align: center;"}
+The Grinband model
+:::
+
+::: {.absolute top=50% left=70% style="font-size: 3em; text-align: center;"}
+&larr;
+:::
+
+::: {.absolute top=53% left=80% style="font-size: 1.2em; text-align: center;"}
+The Mumford et al. model
+:::
+
+
+::: {.absolute top=80% left=0% style="font-size: 1.5em; text-align: center;"}
+This allows understanding of the unique contributions of time on task and condition differences
+:::
+
+::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+
+##
+
+
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
+Are we throwing out the baby with the bathwater?
+:::
+
+![](./images/grinband_2011_fig2.jpg){.absolute top=15% left=15% height=40%}
+
+![](./images/grinband_2011_fig5.jpg){.absolute top=65% left=15% height=36%}
+
+::: {.absolute top=57% left=10% style="font-size: 1.25em; text-align: center;"}
+Activation for Stroop effect disappears after removing RT effect
+:::
+
+
+::: {.absolute top=99% left=35% style="font-size: 1.25em; text-align: center;"}
+Grinband et al., 2011 (N = 23)
+:::
+
+##
+
+![](./images/stroop_activation_ConsDurNoRT.png){.absolute top=20% left=-10% height=90%}
+
+![](./images/stroop_activation_ConsDurRT.png){.absolute top=15% left=46% height=95%}
+
+::: {.absolute top=20% left=10% style="font-size: 1.25em; text-align: center;"}
+Without RT modeling
+:::
+
+::: {.absolute top=20% left=65% style="font-size: 1.25em; text-align: center;"}
+With RT modeling
+:::
+
+
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
+With sufficient power, we can find specific effects even after removing RT
+:::
+
+::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
+Bissett et al., unpublished
+:::
+
+
+##
+
+::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
+Modeling response times is essential to valid interpretation of activation results.
+:::
+
+::: {.absolute top=60% left=10% style="font-size: 2em; text-align: center;"}
+What about brain-behavior associations?
+:::
+
+## 
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Unmodeled RT effects from first level can leak into the second level
+:::
+
+
+::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
+Anything that correlates with RT can then correlate with activation
+:::
+
+## 
+
+![](./images/tmap_corr_noRT_slice.png){.absolute top=40% left=0% height=60%}
+
+
+![](./images/scatterplot_ConstDurNoRT_roi0.png){.absolute top=40% left=35% height=60%}
+
+::: {.absolute top=25% left=5% style="font-size: 1.25em; text-align: center;"}
+Without RT modeling
+:::
+
+
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Unmodeled RT effects from first level can leak into the second level
+:::
+
+::: {.absolute top=120% left=35% style="font-size: 1.25em; text-align: center;"}
+Mumford et al., 2023, BioRxiV
+:::
+
+## 
+
+![](./images/tmap_corr_noRT_slice.png){.absolute top=40% left=0% height=60%}
+
+
+![](./images/tmap_corr_RT_slice.png){.absolute top=40% left=70% height=60%}
+
+
+![](./images/scatterplot_ConstDurNoRT_roi0.png){.absolute top=40% left=35% height=60%}
+
+::: {.absolute top=25% left=5% style="font-size: 1.25em; text-align: center;"}
+Without RT modeling
+:::
+
+::: {.absolute top=25% left=75% style="font-size: 1.25em; text-align: center;"}
+With RT modeling
+:::
+
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Unmodeled RT effects from first level can leak into the second level
+:::
+
+::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
+Mumford et al., 2023, BioRxiV
+:::
+
+
+
+## 
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+RT effects cannot be removed by including RT in the group-level model
+:::
+
+
+::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
+In fact, this can actually induce artifactual correlations!
+:::
+
+::: {.absolute top=120% left=35% style="font-size: 1.25em; text-align: center;"}
+Mumford et al., 2023, BioRxiV
+:::
+
+##
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Conclusions
+:::
+
+::: {.absolute top=10% left=5% style="font-size: 1.5em; text-align: center;"}
+- Response time is a major potential confound for all task fMRI studies
+  - Without adjustment, it is impossible to determine whether activations simply reflect time on task
+- If response time effects are not modeled at the first level, they can creep into the group analysis
+- This poses a major problem for large projects that share statistical results from first-level models that do not include RT
+
+:::
+
+## 
+
+::: {.absolute top=0% left=10% style="font-size: 2em; text-align: center;"}
+Acknowledgments
+:::
+
+::: {.absolute top=12% left=9% style="font-size: 1.5em; text-align: center;"}
+The Poldrack Lab
+:::
+
+![](./images/poldracklab_2022.png){.absolute top=20% left=5% height=45%}
+
+![](./images/cropped_jmumford.jpg){.absolute top=20% left=57% height=35%}
+
+::: {.absolute top=12% left=55% style="font-size: 1.5em; text-align: center;"}
+Jeanette Mumford
+:::
+
+
+
+![](./images/brain_initiative_logo.png){.absolute top=75% left=5% height=30%}
+![](./images/nsf_logo.png){.absolute top=75% left=32% height=25%}
+![](./images/NIH-NIMH-logo-new.png){.absolute top=80% left=55% height=15%}
+
+::: {.absolute top=67% left=45% style="font-size: 1.5em; text-align: center;"}
+Funding
+:::
+
+
+##
+
+##
+
+How should we address potential confounds in brain-behavior association analyses?
+
+- "Statistical control"
+  - Put every possible confound into the group-level model
+- Three problems with this:
+  - It doesn't work for RT
+  - It can result in false positives when confounds are measured with error
+  - Conditioning on a common effect can result in incorrect inferences
+
+
+
+## The problem of measurement error in regression
+
+- yarkoni/westfall
+
+
+## Collider bias
+
+
+## An example of collider bias: Selection bias
+
+
+## What can we do?
+
+
+## Acknowledgments
+

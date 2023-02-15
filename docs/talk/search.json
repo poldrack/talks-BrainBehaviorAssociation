@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "talk.html#section",
+    "href": "talk.html#section",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "What do correlations between brain function/structure and behavior mean?"
+  },
+  {
+    "objectID": "talk.html#section-1",
+    "href": "talk.html#section-1",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How does neural computation relate to behavior?\n\n\n\nGeorge et al., 2020"
+  },
+  {
+    "objectID": "talk.html#section-2",
+    "href": "talk.html#section-2",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How does neural computation relate to behavior?\n\n\n\nGeorge et al., 2020\n\n\n→\n\n\n\nPavlov’s Dogz"
+  },
+  {
+    "objectID": "talk.html#section-3",
+    "href": "talk.html#section-3",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How do differences in neural computation relate to differences in behavior?\n\n\n\n\n?"
+  },
+  {
+    "objectID": "talk.html#structural-imaging-and-computation",
+    "href": "talk.html#structural-imaging-and-computation",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Structural imaging and computation",
+    "text": "Structural imaging and computation\nI know nothing"
+  },
+  {
+    "objectID": "talk.html#functional-imaging-and-computation",
+    "href": "talk.html#functional-imaging-and-computation",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Functional imaging and computation",
+    "text": "Functional imaging and computation\nIt’s complicated"
+  },
+  {
+    "objectID": "talk.html#how-might-differences-in-neural-computation-give-rise-to-differences-in-fmri-signals",
+    "href": "talk.html#how-might-differences-in-neural-computation-give-rise-to-differences-in-fmri-signals",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "How might differences in neural computation give rise to differences in fMRI signals?",
+    "text": "How might differences in neural computation give rise to differences in fMRI signals?\n\nfMRI signals will be primarily sensitive to differences in computation that result in overal differences in the integrated amount of neural activity\nDifferences in intensity of neural activity (e.g. spike rate, EPSP amplitude)\nDifferences in duration of neural activity"
+  },
+  {
+    "objectID": "talk.html#efficiency-a-non-explanation",
+    "href": "talk.html#efficiency-a-non-explanation",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "“Efficiency”: A non-explanation",
+    "text": "“Efficiency”: A non-explanation"
+  },
+  {
+    "objectID": "talk.html#changes-in-rate-vs.-duration-of-neural-firing-are-indistinguishable-in-fmri",
+    "href": "talk.html#changes-in-rate-vs.-duration-of-neural-firing-are-indistinguishable-in-fmri",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Changes in rate vs. duration of neural firing are indistinguishable in fMRI",
+    "text": "Changes in rate vs. duration of neural firing are indistinguishable in fMRI"
+  },
+  {
+    "objectID": "talk.html#the-response-time-paradox",
+    "href": "talk.html#the-response-time-paradox",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "The response time paradox",
+    "text": "The response time paradox\n\nFrom the standpoint of fMRI, these same RT differences reflect a potential confound\n\nWe can’t tell whether the differences in activation are truly due to differences in neural computation, or simply due to “time on task”"
+  },
+  {
+    "objectID": "talk.html#the-response-time-paradox-2",
+    "href": "talk.html#the-response-time-paradox-2",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "The response time paradox",
+    "text": "The response time paradox\n\ngrinband/carp results"
+  },
+  {
+    "objectID": "talk.html#response-time-correlates-in-fmri-are-very-strong",
+    "href": "talk.html#response-time-correlates-in-fmri-are-very-strong",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Response time correlates in fMRI are very strong",
+    "text": "Response time correlates in fMRI are very strong\n\n\n\n\n\n\n\n\nYarkoni et al., 2009\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#solution-model-rt-at-the-first-level",
+    "href": "talk.html#solution-model-rt-at-the-first-level",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Solution: Model RT at the first level",
+    "text": "Solution: Model RT at the first level\n\nthis allows understanding of the unique contributions of time on task and condition differences"
+  },
+  {
+    "objectID": "talk.html#problem-are-we-throwing-out-the-baby-with-the-bathwater",
+    "href": "talk.html#problem-are-we-throwing-out-the-baby-with-the-bathwater",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Problem: Are we throwing out the baby with the bathwater?",
+    "text": "Problem: Are we throwing out the baby with the bathwater?"
+  },
+  {
+    "objectID": "talk.html#what-about-brain-behavior-associations",
+    "href": "talk.html#what-about-brain-behavior-associations",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "What about brain-behavior associations?",
+    "text": "What about brain-behavior associations?\n\nunmodeled RT effects from first level can leak into the second level\n\nAnything that correlates with RT can then correlate with activation"
+  },
+  {
+    "objectID": "talk.html#stroop-example",
+    "href": "talk.html#stroop-example",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Stroop example",
+    "text": "Stroop example"
+  },
+  {
+    "objectID": "talk.html#how-should-we-address-potential-confounds-in-brain-behavior-association-analyses",
+    "href": "talk.html#how-should-we-address-potential-confounds-in-brain-behavior-association-analyses",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "How should we address potential confounds in brain-behavior association analyses?",
+    "text": "How should we address potential confounds in brain-behavior association analyses?\n\n“Statistical control”\n\nPut every possible confound into the group-level model\n\nThree problems with this:\n\nIt doesn’t work for RT\nIt can result in false positives when confounds are measured with error\nConditioning on a common effect can result in incorrect inferences"
+  },
+  {
+    "objectID": "talk.html#why-you-cant-simply-regress-out-rt-at-the-group-level",
+    "href": "talk.html#why-you-cant-simply-regress-out-rt-at-the-group-level",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Why you can’t simply regress out RT at the group level",
+    "text": "Why you can’t simply regress out RT at the group level\n\nJeanette’s analysis"
+  },
+  {
+    "objectID": "talk.html#the-problem-of-measurement-error-in-regression",
+    "href": "talk.html#the-problem-of-measurement-error-in-regression",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "The problem of measurement error in regression",
+    "text": "The problem of measurement error in regression\n\nyarkoni/westfall"
+  },
+  {
+    "objectID": "talk.html#collider-bias",
+    "href": "talk.html#collider-bias",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Collider bias",
+    "text": "Collider bias"
+  },
+  {
+    "objectID": "talk.html#an-example-of-collider-bias-selection-bias",
+    "href": "talk.html#an-example-of-collider-bias-selection-bias",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "An example of collider bias: Selection bias",
+    "text": "An example of collider bias: Selection bias"
+  },
+  {
+    "objectID": "talk.html#what-can-we-do",
+    "href": "talk.html#what-can-we-do",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "What can we do?",
+    "text": "What can we do?"
+  },
+  {
+    "objectID": "talk.html#acknowledgments",
+    "href": "talk.html#acknowledgments",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\n\nhttps://poldrack.github.io/talks-BrainBehaviorAssociation/"
+  },
+  {
+    "objectID": "talk.html#the-response-time-paradox-1",
+    "href": "talk.html#the-response-time-paradox-1",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "The response time paradox",
+    "text": "The response time paradox\n\nFrom the standpoint of fMRI, these same RT differences reflect a potential confound\n\nWe can’t tell whether the differences in activation are truly due to differences in neural computation, or simply due to “time on task”"
+  },
+  {
+    "objectID": "talk.html#section-4",
+    "href": "talk.html#section-4",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "What can imaging signals tell us about differences in neural computation?\n\n\n\n“Neural Guitar Signature”"
+  },
+  {
+    "objectID": "talk.html#section-5",
+    "href": "talk.html#section-5",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "What can imaging signals tell us about differences in neural computation?\n\n\n\n“Neural Guitar Signature”"
+  },
+  {
+    "objectID": "talk.html#section-6",
+    "href": "talk.html#section-6",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Functional imaging and neural computation:\nIt’s complicated\n\n\n\nLogothetis, 2008"
+  },
+  {
+    "objectID": "talk.html#section-7",
+    "href": "talk.html#section-7",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How might differences in neural computation give rise to differences in fMRI signals?"
+  },
+  {
+    "objectID": "talk.html#section-8",
+    "href": "talk.html#section-8",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How might differences in neural computation give rise to differences in fMRI signals?\nDifference in intensity of neural activity"
+  },
+  {
+    "objectID": "talk.html#section-9",
+    "href": "talk.html#section-9",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How might differences in neural computation give rise to differences in fMRI signals?\nDifference in duration of neural activity"
+  },
+  {
+    "objectID": "talk.html#section-10",
+    "href": "talk.html#section-10",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Changes in rate vs. duration of neural firing are indistinguishable in fMRI"
+  },
+  {
+    "objectID": "talk.html#section-11",
+    "href": "talk.html#section-11",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Same duration, different amplitude"
+  },
+  {
+    "objectID": "talk.html#section-12",
+    "href": "talk.html#section-12",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Same amplitude, different duration"
+  },
+  {
+    "objectID": "talk.html#section-13",
+    "href": "talk.html#section-13",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "The effects of amplitude and duration are indistinguishable in the fMRI signal"
+  },
+  {
+    "objectID": "talk.html#section-14",
+    "href": "talk.html#section-14",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "The response time paradox\n\n\n\nIn cognitive psychology, differences in RT are the measure of interest\n\nThus, nearly all task comparisons will exhibit a difference in RT\n\n\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#section-15",
+    "href": "talk.html#section-15",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "The response time paradox\n\n\n\nFrom the standpoint of fMRI, these same RT differences reflect a potential confound\n\nWe can’t tell whether the differences in activation are truly due to differences in neural computation, or simply due to “time on task”\n\n\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#section-16",
+    "href": "talk.html#section-16",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Response time correlates in fMRI are very strong\n\n\n\n\nYarkoni et al., 2009\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#section-17",
+    "href": "talk.html#section-17",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Solution: Model RT at the first level\n\n\n\n←\n\n\nThe standard model\n\n\n←\n\n\nThe Grinband model\n\n\n←\n\n\nThe Mumford et al. model\n\n\nThis allows understanding of the unique contributions of time on task and condition differences\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#section-18",
+    "href": "talk.html#section-18",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Are we throwing out the baby with the bathwater?\n\n\n\n\nActivation for Stroop effect disappears after removing RT effect\n\n\nGrinband et al., 2011 (N = 23)"
+  },
+  {
+    "objectID": "talk.html#section-19",
+    "href": "talk.html#section-19",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Without RT modeling\n\n\nWith RT modeling\n\n\nWith sufficient power, we can find specific effects even after removing RT\n\n\nBissett et al., unpublished"
+  },
+  {
+    "objectID": "talk.html#section-20",
+    "href": "talk.html#section-20",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Modeling response times is essential to valid interpretation of activation results.\n\n\nWhat about brain-behavior associations?"
+  },
+  {
+    "objectID": "talk.html#section-21",
+    "href": "talk.html#section-21",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Unmodeled RT effects from first level can leak into the second level\n\n\nAnything that correlates with RT can then correlate with activation"
+  },
+  {
+    "objectID": "talk.html#what-about-controlling-for-rt-at-the-group-level",
+    "href": "talk.html#what-about-controlling-for-rt-at-the-group-level",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "What about controlling for RT at the group level",
+    "text": "What about controlling for RT at the group level\n\nJeanette’s analysis"
+  },
+  {
+    "objectID": "talk.html#section-22",
+    "href": "talk.html#section-22",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Without RT modeling\n\n\nUnmodeled RT effects from first level can leak into the second level\n\n\nMumford et al., 2023, BioRxiV"
+  },
+  {
+    "objectID": "talk.html#section-23",
+    "href": "talk.html#section-23",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Without RT modeling\n\n\nWith RT modeling\n\n\nUnmodeled RT effects from first level can leak into the second level\n\n\nMumford et al., 2023, BioRxiV"
+  },
+  {
+    "objectID": "talk.html#section-26",
+    "href": "talk.html#section-26",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Acknowledgments\n\n\nThe Poldrack Lab\n\n\n\n\nJeanette Mumford\n\n  \n\nFunding"
+  },
+  {
+    "objectID": "talk.html#section-24",
+    "href": "talk.html#section-24",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "RT effects cannot be removed by including RT in the group-level model\n\n\nIn fact, this can actually induce artifactual correlations!\n\n\nMumford et al., 2023, BioRxiV"
+  },
+  {
+    "objectID": "talk.html#section-27",
+    "href": "talk.html#section-27",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How should we address potential confounds in brain-behavior association analyses?\n\n“Statistical control”\n\nPut every possible confound into the group-level model\n\nThree problems with this:\n\nIt doesn’t work for RT\nIt can result in false positives when confounds are measured with error\nConditioning on a common effect can result in incorrect inferences"
+  },
+  {
+    "objectID": "talk.html#section-25",
+    "href": "talk.html#section-25",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "Conclusions\n\n\n\nResponse time is a major potential confound for all task fMRI studies\n\nWithout adjustment, it is impossible to determine whether activations simply reflect time on task\n\nIf response time effects are not modeled at the first level, they can creep into the group analysis\nThis poses a major problem for large projects that share statistical results from first-level models that do not include RT"
+  },
+  {
+    "objectID": "talk.html#section-28",
+    "href": "talk.html#section-28",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "",
+    "text": "How should we address potential confounds in brain-behavior association analyses?\n\n“Statistical control”\n\nPut every possible confound into the group-level model\n\nThree problems with this:\n\nIt doesn’t work for RT\nIt can result in false positives when confounds are measured with error\nConditioning on a common effect can result in incorrect inferences"
+  },
+  {
+    "objectID": "talk.html#acknowledgments-1",
+    "href": "talk.html#acknowledgments-1",
+    "title": "Improving the interpretability and validity of brain-behavior relations",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\n\nhttps://poldrack.github.io/talks-BrainBehaviorAssociation/"
+  }
+]
