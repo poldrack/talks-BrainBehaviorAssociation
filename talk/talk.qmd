@@ -19,11 +19,30 @@ format:
 
 ## 
 
-![](./images/brain_behavior_scatterplot.png){.absolute top=15% left=20% height=80%}
+![](./images/inference_cascade.png){.absolute top=0% left=8% height=100%}
 
 
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-What do correlations between brain function/structure and behavior mean?
+::: {.absolute top=0% left=0% width=40% style="font-size: 1.5em; text-align: center;"}
+Why are we interested in brain-behavior associations?
+:::
+
+
+## 
+
+![](./images/inference_cascade_prediction.png){.absolute top=0% left=15% height=100%}
+
+::: {.absolute top=00% left=0% style="font-size: 1.4em; text-align: center;"}
+- Prediction/biomarkers
+- Normative models
+:::
+
+## 
+
+![](./images/inference_cascade_mechanistic.png){.absolute top=0% left=15% height=100%}
+
+
+::: {.absolute top=00% left=0% style="font-size: 1.4em; text-align: center;"}
+- mechanistic insight
 :::
 
 
@@ -34,7 +53,7 @@ How does neural computation relate to behavior?
 
 ![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
 
-::: {.absolute top=80% left=5% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=80% left=10% style="font-size: 0.6em; text-align: center;"}
 George et al., 2020
 :::
 
@@ -46,7 +65,7 @@ How does neural computation relate to behavior?
 
 ![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
 
-::: {.absolute top=80% left=5% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=80% left=10% style="font-size: 0.6em; text-align: center;"}
 George et al., 2020
 :::
 
@@ -106,7 +125,7 @@ What can imaging signals tell us about differences in neural computation?
 
 ## 
 
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+::: {.absolute top=0% left=15% style="font-size: 1.5em; text-align: center;"}
 Functional imaging and neural computation: 
 
 It's complicated
@@ -129,9 +148,7 @@ How might differences in neural computation give rise to differences in fMRI sig
 ![](./images/rate_stim_intensity.png){.absolute top=25% left=10% height=70%}
 
 
-::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
-How might differences in neural computation give rise to differences in fMRI signals?
-
+::: {.absolute top=0% left=15% style="font-size: 1.8em; text-align: center;"}
 Difference in intensity of neural activity
 :::
 
@@ -141,9 +158,7 @@ Difference in intensity of neural activity
 ![](./images/rate_stim_duration.png){.absolute top=25% left=10% height=70%}
 
 
-::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
-How might differences in neural computation give rise to differences in fMRI signals?
-
+::: {.absolute top=0% left=15% style="font-size: 1.8em; text-align: center;"}
 Difference in duration of neural activity
 :::
 
@@ -258,7 +273,7 @@ The standard model
 :::
 
 ::: {.absolute top=37% left=80% style="font-size: 1.2em; text-align: center;"}
-The Grinband model
+The Grinband et al. (2011) model
 :::
 
 ::: {.absolute top=50% left=70% style="font-size: 3em; text-align: center;"}
@@ -271,7 +286,7 @@ The Mumford et al. model
 
 
 ::: {.absolute top=80% left=0% style="font-size: 1.5em; text-align: center;"}
-This allows understanding of the unique contributions of time on task and condition differences
+The ConsDurRT model allows understanding of the unique contributions of time on task and condition differences
 :::
 
 ::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
@@ -334,16 +349,6 @@ Modeling response times is essential to valid interpretation of activation resul
 What about brain-behavior associations?
 :::
 
-## 
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-Unmodeled RT effects from first level can leak into the second level
-:::
-
-
-::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
-Anything that correlates with RT can then correlate with activation
-:::
 
 ## 
 
@@ -394,6 +399,16 @@ Mumford et al., 2023, BioRxiV
 :::
 
 
+## 
+
+::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
+Unmodeled RT effects from first level can leak into the second level
+:::
+
+
+::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
+Anything that correlates with RT can then correlate (spuriously) with activation
+:::
 
 ## 
 
