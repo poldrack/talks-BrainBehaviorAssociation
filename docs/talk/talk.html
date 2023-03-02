@@ -343,169 +343,169 @@ Russ Poldrack
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p><img data-src="./images/brain_behavior_scatterplot.png" class="absolute" style="top: 15%; left: 20%; height: 80%; "></p>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>What do correlations between brain function/structure and behavior mean?</p>
+<!--
+
+
+- What does a brain-behavior association mean?
+- our usual model is that differences in brain function lead to differences in cognitive function, and those are measured by fMRI and behavior respectively (show a short of latent variable figure with brain/cognition as latents and fMRI/behavior as observed)
+- Assuming this model is true, then what kind of difference in brain function could lead to differences in behavior?
+- A common explanation (since early studies of PET and individual differences in intelligence) has been "efficiency" - i.e. when lower activation is associated with higher intelligence, the more intelligent brain is simply "more efficient"
+- lay out the argument from my 2015 paper on why this is problematic
+- make the case that we need better theories that describe how differences in brain function can give rise to differences in behavior
+
+- go back to the causal model - what if we have the causal arrows wrong? what if the differences in behavior are actually causing the differences in fMRI signal?
+- lay out the RT paradox here, and how it can present itself in the context of brain-behavior assocaitions (taking advantage of a version of your "liking of instruments" example)
+- lay out how your model can address the problem effectively, thus helping to discount the behavior->fMRI arrow as a potential causal factor.
+
+Conclude by highlighting that the interpretation of correlations is fraught and that we need better theory to help guide out interpretations.
+
+
+-->
+<p><img data-src="./images/inference_cascade.png" class="absolute" style="top: 0%; left: 8%; height: 100%; "></p>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 0%; left: 0%; width: 40%; ">
+<p>What does a brain-behavior association mean?</p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>How does neural computation relate to behavior?</p>
-</div>
-<p><img data-src="./images/GeorgeEtAl_2020_microcircuit.jpg" class="absolute" style="top: 20%; left: 0%; height: 60%; "></p>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 80%; left: 5%; ">
-<p>George et al., 2020</p>
-</div>
+<p><img data-src="./images/causal_model_latentonly.png" class="absolute" style="top: 55%; left: 10%; height: 41%; "></p>
+<p><img data-src="./images/whitebox.png" class="absolute" style="top: 55%; left: -10%; height: 40%; "></p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>How does neural computation relate to behavior?</p>
-</div>
-<p><img data-src="./images/GeorgeEtAl_2020_microcircuit.jpg" class="absolute" style="top: 20%; left: 0%; height: 60%; "></p>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 80%; left: 5%; ">
-<p>George et al., 2020</p>
-</div>
-<div class="absolute" style="font-size: 6em; text-align: center;top: 30%; left: 35%; ">
-<p>→</p>
-</div>
-<p><img data-src="./images/pavlovs_dogz.jpg" class="absolute" style="top: 20%; left: 50%; height: 70%; "></p>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 95%; left: 65%; ">
-<p>Pavlov’s Dogz</p>
-</div>
+<p><img data-src="./images/causal_model.png" class="absolute" style="top: 0%; left: 8%; height: 100%; "></p>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>How do differences in neural computation relate to differences in behavior?</p>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; left: 10%; ">
+<p>Assuming this model is true, what kinds of neural differences could give rise to cognitive differences?</p>
 </div>
-<p><img data-src="./images/guitar_distribution.png" class="absolute" style="top: 30%; left: 0%; height: 65%; "></p>
-<p><img data-src="./images/GeorgeEtAl_2020_microcircuit.jpg" class="absolute" style="top: 20%; left: 0%; height: 50%; "></p>
-<div class="absolute" style="font-size: 6em; text-align: center;top: 25%; left: 30%; ">
-<p>?</p>
+</section>
+<section id="brain-efficiency" class="slide level2" style="font-size: 1.5em;">
+<h2>“Brain efficiency”</h2>
+<blockquote>
+<p>“A series of investigations in normal subjects indicate an inverse relationship between brain glucose metabolic rate and psychometric measures of intelligence. . .These studies have been interpreted as evidence for a <em>brain efﬁciency model of intelligence</em>: Intelligence is not a function of how hard the brain works but rather how efﬁciently it works.” (Haier et al., 1992)</p>
+</blockquote>
+</section>
+<section id="brain-efficiency-1" class="slide level2" style="font-size: 1.5em;">
+<h2>“Brain efficiency”</h2>
+<blockquote>
+<p>“A series of investigations in normal subjects indicate an inverse relationship between brain glucose metabolic rate and psychometric measures of intelligence. . .These studies have been interpreted as evidence for a <em>brain efﬁciency model of intelligence</em>: Intelligence is not a function of how hard the brain works but rather how efﬁciently it works.” (Haier et al., 1992)”</p>
+</blockquote>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 70%; left: 20%; ">
+<p>Is this really an explanation?</p>
 </div>
+</section>
+<section id="efficiency-a-thought-experiment" class="slide level2" style="font-size: 1.5em;">
+<h2>Efficiency: A thought experiment</h2>
+<div class="absolute" style="font-size: 1em; text-align: center;top: 10%; left: 0%; width: 50%; ">
+<ul>
+<li>A Prius and a Porsche both drive from San Francisco to Los Angeles via the same route at the same speed.</li>
+<li>The Prius uses half as much fuel as the Porsche. How do we explain this?</li>
+</ul>
+</div>
+<p><img data-src="./images/porsche-prius1.jpg" class="absolute" style="top: 20%; left: 55%; height: 50%; "></p>
+</section>
+<section id="efficiency-a-thought-experiment-1" class="slide level2" style="font-size: 1.5em;">
+<h2>Efficiency: A thought experiment</h2>
+<div>
+<ol type="1">
+<li class="fragment">The Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).</li>
+<li class="fragment">The Prius is more efﬁcient.</li>
+</ol>
+</div>
+<div class="absolute" style="font-size: 0.8em; text-align: center;top: 95%; left: 0%; ">
+<p>Poldrack, 2015</p>
+</div>
+</section>
+<section id="explaining-brain-behavior-associations" class="slide level2" style="font-size: 1.5em;">
+<h2>Explaining brain-behavior associations</h2>
+<ul>
+<li>“Efficiency” is a non-explanation
+<ul>
+<li>It simply renames the phenomenon</li>
+</ul></li>
+<li>What kinds of neural differences might explain these associations?
+<ul>
+<li>Different intensity of neuronal activity</li>
+<li>Different duration of neuronal activity</li>
+</ul></li>
+</ul>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>What can imaging signals tell us about differences in neural computation?</p>
-</div>
-<p><img data-src="./images/ngs_map.png" class="absolute" style="top: 25%; left: 10%; height: 65%; "></p>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 90%; left: 8%; ">
-<p>“Neural Guitar Signature”</p>
+<p><img data-src="./images/rate_stim_intensity.png" class="absolute" style="top: 15%; left: 5%; height: 80%; "></p>
+<p><img data-src="./images/charan.jpg" class="absolute" style="top: 0%; left: 0%; height: 40%; "></p>
+<div class="absolute" style="font-size: 1.8em; text-align: center;top: 0%; left: 15%; ">
+<p>Difference in intensity of neural activity</p>
 </div>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
-<p><img data-src="./images/ngs.png" class="absolute" style="top: 15%; left: 50%; height: 90%; "></p>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>What can imaging signals tell us about differences in neural computation?</p>
-</div>
-<p><img data-src="./images/ngs_map.png" class="absolute" style="top: 25%; left: 10%; height: 65%; "></p>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 90%; left: 8%; ">
-<p>“Neural Guitar Signature”</p>
-</div>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>Functional imaging and neural computation:</p>
-<p>It’s complicated</p>
-</div>
-<p><img data-src="./images/logothetis_2008_fig2.png" class="absolute" style="top: 20%; left: 10%; height: 80%; "></p>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 98%; left: 75%; ">
-<p>Logothetis, 2008</p>
-</div>
-</section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 1.8em; text-align: center;top: 0%; left: 5%; ">
-<p>How might differences in neural computation give rise to differences in fMRI signals?</p>
-</div>
-</section>
-<section id="section-8" class="slide level2">
-<h2></h2>
-<p><img data-src="./images/rate_stim_intensity.png" class="absolute" style="top: 25%; left: 10%; height: 70%; "></p>
-<div class="absolute" style="font-size: 1.8em; text-align: center;top: 0%; left: 5%; ">
-<p>How might differences in neural computation give rise to differences in fMRI signals?</p>
-<p>Difference in intensity of neural activity</p>
-</div>
-</section>
-<section id="section-9" class="slide level2">
-<h2></h2>
-<p><img data-src="./images/rate_stim_duration.png" class="absolute" style="top: 25%; left: 10%; height: 70%; "></p>
-<div class="absolute" style="font-size: 1.8em; text-align: center;top: 0%; left: 5%; ">
-<p>How might differences in neural computation give rise to differences in fMRI signals?</p>
+<p><img data-src="./images/rate_stim_duration.png" class="absolute" style="top: 15%; left: 5%; height: 80%; "></p>
+<div class="absolute" style="font-size: 1.8em; text-align: center;top: 0%; left: 15%; ">
 <p>Difference in duration of neural activity</p>
 </div>
 </section>
-<section id="section-10" class="slide level2">
+<section id="section-6" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 1.8em; text-align: center;top: 40%; left: 5%; ">
 <p>Changes in rate vs.&nbsp;duration of neural firing are indistinguishable in fMRI</p>
 </div>
 </section>
-<section id="section-11" class="slide level2">
+<section id="section-7" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 15%; ">
 <p>Same duration, different amplitude</p>
 </div>
 <p><img data-src="./images/intensity_conv.png" class="absolute" style="top: 15%; left: 20%; height: 80%; "></p>
 </section>
-<section id="section-12" class="slide level2">
+<section id="section-8" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 15%; ">
 <p>Same amplitude, different duration</p>
 </div>
 <p><img data-src="./images/duration_conv.png" class="absolute" style="top: 15%; left: 20%; height: 80%; "></p>
 </section>
-<section id="section-13" class="slide level2">
+<section id="section-9" class="slide level2">
 <h2></h2>
 <p><img data-src="./images/intensity_duration_conv.png" class="absolute" style="top: 15%; left: 20%; height: 80%; "></p>
 <div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 0%; ">
 <p>The effects of amplitude and duration are indistinguishable in the fMRI signal</p>
 </div>
 </section>
-<section id="section-14" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 20%; ">
-<p>The response time paradox</p>
-</div>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; left: 0%; ">
+<section id="the-response-time-paradox" class="slide level2" style="font-size: 1.5em;">
+<h2>The response time paradox</h2>
 <ul>
 <li>In cognitive psychology, differences in RT are the measure of interest
 <ul>
 <li>Thus, nearly all task comparisons will exhibit a difference in RT</li>
 </ul></li>
 </ul>
-</div>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 10%; ">
+<div class="absolute" style="font-size: 0.8em; text-align: center;top: 100%; left: 0%; ">
 <p>Mumford et al, 2023</p>
 </div>
 </section>
-<section id="section-15" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 20%; ">
-<p>The response time paradox</p>
-</div>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; left: 0%; ">
+<section id="the-response-time-paradox-1" class="slide level2" style="font-size: 1.5em;">
+<h2>The response time paradox</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>From the standpoint of fMRI, these same RT differences reflect a potential confound
 <ul>
-<li>We can’t tell whether the differences in activation are truly due to differences in neural computation, or simply due to “time on task”</li>
+<li>We can’t tell whether the differences in activation are truly due to differences in neural computation, or simply due to a “time on task” confound</li>
+<li>Known since Grinband et al.&nbsp;(2008)</li>
 </ul></li>
 </ul>
 </div>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 10%; ">
+</div>
+<div class="absolute" style="font-size: 0.8em; text-align: center;top: 100%; left: 0%; ">
 <p>Mumford et al, 2023</p>
 </div>
+<p><img data-src="./images/causal_model_reversecausality.png" class="absolute" style="top: 10%; left: 50%; height: 60%; "></p>
 </section>
-<section id="section-16" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 0%; ">
-<p>Response time correlates in fMRI are very strong</p>
-</div>
+<section id="response-time-correlates-in-fmri-are-very-strong" class="slide level2">
+<h2>Response time correlates in fMRI are very strong</h2>
 <p><img data-src="./images/conjunction_avg_rt_effect_across_7tasks_3row_plot.png" class="absolute" style="top: 12%; left: 45%; height: 85%; "></p>
 <p><img data-src="./images/yarkoni_RT_corr.png" class="absolute" style="top: 20%; left: 0%; height: 70%; "></p>
 <div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 15%; ">
@@ -515,11 +515,101 @@ Russ Poldrack
 <p>Mumford et al, 2023</p>
 </div>
 </section>
-<section id="section-17" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 0%; ">
-<p>Solution: Model RT at the first level</p>
+<section id="what-about-brain-behavior-associations" class="slide level2">
+<h2>What about brain-behavior associations?</h2>
+<div class="columns">
+<div class="column" style="font-size: 1.2em;">
+<ul>
+<li>Under the standard analysis approach (ignoring RT), if there are:
+<ul>
+<li>differences in the overall amount of activation (regardless of condition) across people</li>
+<li>variability in the RT difference between conditions across people</li>
+</ul></li>
+<li>This can induce an artifactual correlation between activation (between-condition comparisons) and the RT difference.
+<ul>
+<li>Even if the average RT difference between conditions is zero across subjects!</li>
+</ul></li>
+</ul>
 </div>
+</div>
+<p><img data-src="./images/effect_vs_rtdiff_betamean_1_rtdiff_0.png" class="absolute" style="top: 15%; left: 55%; height: 70%; "></p>
+<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 0%; ">
+<p>Mumford et al, 2023</p>
+</div>
+</section>
+<section id="spurious-brain-behavior-correlations" class="slide level2">
+<h2>Spurious brain-behavior correlations</h2>
+<div class="columns">
+<div class="column" style="font-size: 1.2em;">
+<ul>
+<li>When overall BOLD response (acrross all conditions) differs by some subject feature (e.g.&nbsp;age), then this lead to spurious brain-behavior associations with that feature
+<ul>
+<li>Even when there is no true relationship between age and activation (condition differences) or RT!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="./images/suprious_BBA_nort.png" class="absolute" style="top: 15%; left: 55%; height: 70%; "></p>
+<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 0%; ">
+<p>Mumford et al, 2023</p>
+</div>
+</section>
+<section id="can-it-be-fixed-by-regressing-out-rt-at-the-group-level" class="slide level2">
+<h2>Can it be fixed by regressing out RT at the group level?</h2>
+<div class="columns">
+<div class="column" style="font-size: 1.2em;">
+<ul>
+<li>No!
+<ul>
+<li>Simulations show that regressing RT out at the group level could actually <em>increase</em> the size of the spurious effect.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 20%; left: 65%; ">
+<p>Without RT regressor in group model:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>t</strong></th>
+<th><strong>p</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>2.698</td>
+<td>0.008</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 60%; left: 65%; ">
+<p>With RT regressor in group model:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>t</th>
+<th>p</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>7.163</td>
+<td>0.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 0%; ">
+<p>Mumford et al, 2023</p>
+</div>
+</section>
+<section id="solution-model-rt-at-the-first-level" class="slide level2">
+<h2>Solution: Model RT at the first level</h2>
 <p><img data-src="./images/model_explainer_new.png-1.png" class="absolute" style="top: 15%; left: 0%; height: 55%; "></p>
 <div class="absolute" style="font-size: 3em; text-align: center;top: 20%; left: 70%; ">
 <p>←</p>
@@ -531,7 +621,7 @@ Russ Poldrack
 <p>←</p>
 </div>
 <div class="absolute" style="font-size: 1.2em; text-align: center;top: 37%; left: 80%; ">
-<p>The Grinband model</p>
+<p>The Grinband et al.&nbsp;(2008) model</p>
 </div>
 <div class="absolute" style="font-size: 3em; text-align: center;top: 50%; left: 70%; ">
 <p>←</p>
@@ -540,17 +630,14 @@ Russ Poldrack
 <p>The Mumford et al.&nbsp;model</p>
 </div>
 <div class="absolute" style="font-size: 1.5em; text-align: center;top: 80%; left: 0%; ">
-<p>This allows understanding of the unique contributions of time on task and condition differences</p>
+<p>The Constant Duration + RT model allows quantification of the unique contributions of time on task and condition differences</p>
 </div>
-<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 10%; ">
+<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 0%; ">
 <p>Mumford et al, 2023</p>
 </div>
 </section>
-<section id="section-18" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 0%; ">
-<p>Are we throwing out the baby with the bathwater?</p>
-</div>
+<section id="are-we-throwing-out-the-baby-with-the-bathwater" class="slide level2">
+<h2>Are we throwing out the baby with the bathwater?</h2>
 <p><img data-src="./images/grinband_2011_fig2.jpg" class="absolute" style="top: 15%; left: 15%; height: 40%; "></p>
 <p><img data-src="./images/grinband_2011_fig5.jpg" class="absolute" style="top: 65%; left: 15%; height: 36%; "></p>
 <div class="absolute" style="font-size: 1.25em; text-align: center;top: 57%; left: 10%; ">
@@ -560,102 +647,98 @@ Russ Poldrack
 <p>Grinband et al., 2011 (N = 23)</p>
 </div>
 </section>
-<section id="section-19" class="slide level2">
-<h2></h2>
-<p><img data-src="./images/stroop_activation_ConsDurNoRT.png" class="absolute" style="top: 20%; left: -10%; height: 90%; "></p>
-<p><img data-src="./images/stroop_activation_ConsDurRT.png" class="absolute" style="top: 15%; left: 46%; height: 95%; "></p>
+<section id="with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt" class="slide level2">
+<h2>With sufficient power, we can find specific effects even after removing RT</h2>
 <div class="absolute" style="font-size: 1.25em; text-align: center;top: 20%; left: 10%; ">
 <p>Without RT modeling</p>
 </div>
 <div class="absolute" style="font-size: 1.25em; text-align: center;top: 20%; left: 65%; ">
 <p>With RT modeling</p>
 </div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 0%; ">
-<p>With sufficient power, we can find specific effects even after removing RT</p>
-</div>
 <div class="absolute" style="font-size: 1.25em; text-align: center;top: 100%; left: 35%; ">
 <p>Bissett et al., unpublished</p>
 </div>
 </section>
-<section id="section-20" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 30%; left: 5%; ">
-<p>Modeling response times is essential to valid interpretation of activation results.</p>
+<section id="modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-activation" class="slide level2">
+<h2>Modeling RT at the first level prevents suprious relations with RT and other correlates of activation</h2>
+<p><img data-src="./images/suprious_BBA_rt.png" class="absolute" style="top: 15%; left: 0%; height: 70%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 20%; left: 65%; ">
+<p>Without first-level RT modeling:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>t</strong></th>
+<th><strong>p</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>2.698</td>
+<td>0.008</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 60%; left: 10%; ">
-<p>What about brain-behavior associations?</p>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 60%; left: 65%; ">
+<p>With first-level RT modeling:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>t</strong></th>
+<th><strong>p</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Age</td>
+<td>0.562</td>
+<td>0.575</td>
+</tr>
+</tbody>
+</table>
 </div>
-</section>
-<section id="section-21" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>Unmodeled RT effects from first level can leak into the second level</p>
-</div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 30%; left: 5%; ">
-<p>Anything that correlates with RT can then correlate with activation</p>
-</div>
-</section>
-<section id="section-22" class="slide level2">
-<h2></h2>
-<p><img data-src="./images/tmap_corr_noRT_slice.png" class="absolute" style="top: 40%; left: 0%; height: 60%; "></p>
-<p><img data-src="./images/scatterplot_ConstDurNoRT_roi0.png" class="absolute" style="top: 40%; left: 35%; height: 60%; "></p>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 25%; left: 5%; ">
-<p>Without RT modeling</p>
-</div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>Unmodeled RT effects from first level can leak into the second level</p>
-</div>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 120%; left: 35%; ">
-<p>Mumford et al., 2023, BioRxiV</p>
-</div>
-</section>
-<section id="section-23" class="slide level2">
-<h2></h2>
-<p><img data-src="./images/tmap_corr_noRT_slice.png" class="absolute" style="top: 40%; left: 0%; height: 60%; "></p>
-<p><img data-src="./images/tmap_corr_RT_slice.png" class="absolute" style="top: 40%; left: 70%; height: 60%; "></p>
-<p><img data-src="./images/scatterplot_ConstDurNoRT_roi0.png" class="absolute" style="top: 40%; left: 35%; height: 60%; "></p>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 25%; left: 5%; ">
-<p>Without RT modeling</p>
-</div>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 25%; left: 75%; ">
-<p>With RT modeling</p>
-</div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>Unmodeled RT effects from first level can leak into the second level</p>
-</div>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 100%; left: 35%; ">
-<p>Mumford et al., 2023, BioRxiV</p>
+<div class="absolute" style="font-size: 1em; text-align: center;top: 100%; left: 0%; ">
+<p>Mumford et al, 2023</p>
 </div>
 </section>
-<section id="section-24" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>RT effects cannot be removed by including RT in the group-level model</p>
+<section id="confound-modeling-is-not-a-magic-balm" class="slide level2">
+<h2>Confound modeling is not a magic balm</h2>
+<div class="absolute" style="font-size: 1.1em; text-align: left;top: 10%; left: 0%; width: 65%; ">
+<ul>
+<li>There is a general sense evident from brain-behavior association studies that regression can magically cure all that ails us</li>
+<li>Simply adding regressors will not fix many problems, and can cause others
+<ul>
+<li>Collider bias
+<ul>
+<li>When a confound regressor is a common effect of X and Y variables</li>
+</ul></li>
+<li>Measurement error (Westfall &amp; Yarkoni, 2016)
+<ul>
+<li>When confound variables are measured with error, including them can inflate error rates (sometimes to nearly 100%)</li>
+</ul></li>
+</ul></li>
+<li>We need a greater focus on causal justification for our statistical models (Wysocki et al., 2022)</li>
+</ul>
 </div>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 30%; left: 5%; ">
-<p>In fact, this can actually induce artifactual correlations!</p>
-</div>
-<div class="absolute" style="font-size: 1.25em; text-align: center;top: 120%; left: 35%; ">
-<p>Mumford et al., 2023, BioRxiV</p>
-</div>
+<p><img data-src="./images/US-MagicBalm-2oz-Arnica_Menthol-600_grande-edited.jpg" class="absolute" style="top: 15%; left: 65%; height: 70%; "></p>
 </section>
-<section id="section-25" class="slide level2">
-<h2></h2>
-<div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 5%; ">
-<p>Conclusions</p>
-</div>
+<section id="conclusions" class="slide level2">
+<h2>Conclusions</h2>
 <div class="absolute" style="font-size: 1.5em; text-align: center;top: 10%; left: 5%; ">
 <ul>
 <li>Response time is a major potential confound for all task fMRI studies
 <ul>
 <li>Without adjustment, it is impossible to determine whether activations simply reflect time on task</li>
 </ul></li>
-<li>If response time effects are not modeled at the first level, they can creep into the group analysis</li>
+<li>If response time effects are not modeled at the first level, they can result in sprious brain-behavior assocaitions</li>
 <li>This poses a major problem for large projects that share statistical results from first-level models that do not include RT</li>
 </ul>
 </div>
 </section>
-<section id="section-26" class="slide level2">
+<section id="section-10" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 2em; text-align: center;top: 0%; left: 10%; ">
 <p>Acknowledgments</p>
@@ -673,10 +756,10 @@ Russ Poldrack
 <p>Funding</p>
 </div>
 </section>
-<section id="section-27" class="slide level2">
+<section id="section-11" class="slide level2">
 <h2></h2>
 </section>
-<section id="section-28" class="slide level2">
+<section id="section-12" class="slide level2">
 <h2></h2>
 <p>How should we address potential confounds in brain-behavior association analyses?</p>
 <ul>

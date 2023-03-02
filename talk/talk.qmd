@@ -19,134 +19,116 @@ format:
 
 ## 
 
+<!--
+
+
+- What does a brain-behavior association mean?
+- our usual model is that differences in brain function lead to differences in cognitive function, and those are measured by fMRI and behavior respectively (show a short of latent variable figure with brain/cognition as latents and fMRI/behavior as observed)
+- Assuming this model is true, then what kind of difference in brain function could lead to differences in behavior?
+- A common explanation (since early studies of PET and individual differences in intelligence) has been "efficiency" - i.e. when lower activation is associated with higher intelligence, the more intelligent brain is simply "more efficient"
+- lay out the argument from my 2015 paper on why this is problematic
+- make the case that we need better theories that describe how differences in brain function can give rise to differences in behavior
+
+- go back to the causal model - what if we have the causal arrows wrong? what if the differences in behavior are actually causing the differences in fMRI signal?
+- lay out the RT paradox here, and how it can present itself in the context of brain-behavior assocaitions (taking advantage of a version of your "liking of instruments" example)
+- lay out how your model can address the problem effectively, thus helping to discount the behavior->fMRI arrow as a potential causal factor.
+
+Conclude by highlighting that the interpretation of correlations is fraught and that we need better theory to help guide out interpretations.
+
+
+-->
+
+
 ![](./images/inference_cascade.png){.absolute top=0% left=8% height=100%}
 
-
 ::: {.absolute top=0% left=0% width=40% style="font-size: 1.5em; text-align: center;"}
-Why are we interested in brain-behavior associations?
+What does a brain-behavior association mean?
 :::
 
 
 ## 
 
-![](./images/inference_cascade_prediction.png){.absolute top=0% left=15% height=100%}
+![](./images/causal_model_latentonly.png){.absolute top=55% left=10% height=41%}
 
-::: {.absolute top=00% left=0% style="font-size: 1.4em; text-align: center;"}
-- Prediction/biomarkers
-- Normative models
-:::
-
-## 
-
-![](./images/inference_cascade_mechanistic.png){.absolute top=0% left=15% height=100%}
-
-
-::: {.absolute top=00% left=0% style="font-size: 1.4em; text-align: center;"}
-- mechanistic insight
-:::
-
-
-##  
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-How does neural computation relate to behavior?
-:::
-
-![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
-
-::: {.absolute top=80% left=10% style="font-size: 0.6em; text-align: center;"}
-George et al., 2020
-:::
-
-
-##  
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-How does neural computation relate to behavior?
-:::
-
-![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=60%}
-
-::: {.absolute top=80% left=10% style="font-size: 0.6em; text-align: center;"}
-George et al., 2020
-:::
-
-::: {.absolute top=30% left=35% style="font-size: 6em; text-align: center;"}
-&rarr;
-:::
-
-![](./images/pavlovs_dogz.jpg){.absolute top=20% left=50% height=70%}
-
-::: {.absolute top=95% left=65% style="font-size: 1.5em; text-align: center;"}
-Pavlov's Dogz
-:::
-
-## 
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-How do differences in neural computation relate to differences in behavior?
-:::
-
-![](./images/guitar_distribution.png){.absolute top=30% left=0%  height=65%}
-
-
-![](./images/GeorgeEtAl_2020_microcircuit.jpg){.absolute top=20% left=0% height=50%}
-
-::: {.absolute top=25% left=30% style="font-size: 6em; text-align: center;"}
-?
-:::
-
-
-## 
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-What can imaging signals tell us about differences in neural computation?
-:::
-
-![](./images/ngs_map.png){.absolute top=25% left=10% height=65%}
-
-::: {.absolute top=90% left=8% style="font-size: 1.5em; text-align: center;"}
-"Neural Guitar Signature"
-:::
+![](./images/whitebox.png){.absolute top=55% left=-10% height=40%}
 
 
 ## 
 
+![](./images/causal_model.png){.absolute top=0% left=8% height=100%}
 
-![](./images/ngs.png){.absolute top=15% left=50% height=90%}
-
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-What can imaging signals tell us about differences in neural computation?
-:::
-
-![](./images/ngs_map.png){.absolute top=25% left=10% height=65%}
-
-::: {.absolute top=90% left=8% style="font-size: 1.5em; text-align: center;"}
-"Neural Guitar Signature"
-:::
-
-
-## 
-
-::: {.absolute top=0% left=15% style="font-size: 1.5em; text-align: center;"}
-Functional imaging and neural computation: 
-
-It's complicated
-:::
-
-![](./images/logothetis_2008_fig2.png){.absolute top=20% left=10% height=80%}
-
-::: {.absolute top=98% left=75% style="font-size: 1em; text-align: center;"}
-Logothetis, 2008
-:::
 
 ##
 
-::: {.absolute top=0% left=5% style="font-size: 1.8em; text-align: center;"}
-How might differences in neural computation give rise to differences in fMRI signals?
+::: {.absolute top=30% left=10% style="font-size: 1.5em; text-align: center;"}
+Assuming this model is true, what kinds of neural differences could give rise to cognitive differences?
 :::
+
+
+## "Brain efficiency" {style="font-size: 1.5em;"}
+
+> "A series of investigations in normal subjects indicate an inverse relationship between brain glucose
+metabolic rate and psychometric measures of
+intelligence. . .These studies have been interpreted as
+evidence for a *brain efﬁciency model of intelligence*:
+Intelligence is not a function of how hard the brain
+works but rather how efﬁciently it works." (Haier et al., 1992)
+
+
+## "Brain efficiency" {style="font-size: 1.5em;"}
+
+> "A series of investigations in normal subjects indicate an inverse relationship between brain glucose
+metabolic rate and psychometric measures of
+intelligence. . .These studies have been interpreted as
+evidence for a *brain efﬁciency model of intelligence*:
+Intelligence is not a function of how hard the brain
+works but rather how efﬁciently it works." (Haier et al., 1992)"
+
+::: {.absolute top=70% left=20% style="font-size: 1.5em; text-align: center;"}
+Is this really an explanation?
+:::
+
+
+##  Efficiency: A thought experiment {style="font-size: 1.5em;"}
+
+::: {.absolute top=10% left=0% width=50% style="font-size: 1em; text-align: center;"}
+- A Prius and a Porsche both drive from San Francisco to Los Angeles via the same route at the same speed.
+- The Prius uses half as much fuel as the Porsche.  How do we explain this?
+:::
+
+![](./images/porsche-prius1.jpg){.absolute top=20% left=55% height=50%}
+
+
+##  Efficiency: A thought experiment {style="font-size: 1.5em;"}
+
+::: {.incremental}
+1. The Prius has a gas-electric hybrid engine (which uses
+surplus engine power to generate electricity which is
+then turned back into drive power) and regenerative
+braking (which captures energy that would otherwise
+be lost as heat).
+2. The Prius is more efﬁcient. 
+:::
+
+::: {.absolute top=95% left=0% style="font-size: 0.8em; text-align: center;"}
+Poldrack, 2015
+:::
+
+## Explaining brain-behavior associations {style="font-size: 1.5em;"}
+
+- "Efficiency" is a non-explanation
+    - It simply renames the phenomenon
+- What kinds of neural differences might explain these associations?
+    - Different intensity of neuronal activity
+    - Different duration of neuronal activity
+
+
 
 ## 
 
-![](./images/rate_stim_intensity.png){.absolute top=25% left=10% height=70%}
+![](./images/rate_stim_intensity.png){.absolute top=15% left=5% height=80%}
 
+![](./images/charan.jpg){.absolute top=0% left=0% height=40%}
 
 ::: {.absolute top=0% left=15% style="font-size: 1.8em; text-align: center;"}
 Difference in intensity of neural activity
@@ -155,7 +137,7 @@ Difference in intensity of neural activity
 
 ##
 
-![](./images/rate_stim_duration.png){.absolute top=25% left=10% height=70%}
+![](./images/rate_stim_duration.png){.absolute top=15% left=5% height=80%}
 
 
 ::: {.absolute top=0% left=15% style="font-size: 1.8em; text-align: center;"}
@@ -196,45 +178,33 @@ The effects of amplitude and duration are indistinguishable in the fMRI signal
 :::
 
 
+## The response time paradox {style="font-size: 1.5em;"}
 
-
-## 
-
-::: {.absolute top=0% left=20% style="font-size: 2em; text-align: center;"}
-The response time paradox
-:::
-
-::: {.absolute top=30% left=0% style="font-size: 1.5em; text-align: center;"}
 - In cognitive psychology, differences in RT are the measure of interest
   - Thus, nearly all task comparisons will exhibit a difference in RT
-:::
 
-::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=100% left=0% style="font-size: 0.8em; text-align: center;"}
 Mumford et al, 2023
 :::
 
 
-## 
+## The response time paradox {style="font-size: 1.5em;"}
 
-::: {.absolute top=0% left=20% style="font-size: 2em; text-align: center;"}
-The response time paradox
-:::
-
-::: {.absolute top=30% left=0% style="font-size: 1.5em; text-align: center;"}
+:::: {.columns}
+::: {.column width="50%"}
 - From the standpoint of fMRI, these same RT differences reflect a potential confound
-  - We can't tell whether the differences in activation are truly due to differences in neural computation, or simply due to "time on task"
+  - We can't tell whether the differences in activation are truly due to differences in neural computation, or simply due to a "time on task" confound
+  - Known since Grinband et al. (2008)
 :::
+::::
 
-::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=100% left=0% style="font-size: 0.8em; text-align: center;"}
 Mumford et al, 2023
 :::
 
+![](./images/causal_model_reversecausality.png){.absolute top=10% left=50% height=60%}
 
-## 
-
-::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
-Response time correlates in fMRI are very strong
-:::
+## Response time correlates in fMRI are very strong
 
 
 ![](./images/conjunction_avg_rt_effect_across_7tasks_3row_plot.png){.absolute top=12% left=45% height=85%}
@@ -250,12 +220,73 @@ Yarkoni et al., 2009
 Mumford et al, 2023
 :::
 
+## What about brain-behavior associations?
 
-## 
 
-::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
-Solution: Model RT at the first level
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1.2em;"}
+- Under the standard analysis approach (ignoring RT), if there are:
+  - differences in the overall amount of activation (regardless of condition) across people
+  - variability in the RT difference between conditions across people
+- This can induce an artifactual correlation between activation (between-condition comparisons) and the RT difference.
+  - Even if the average RT difference between conditions is zero across subjects!
 :::
+::::
+
+![](./images/effect_vs_rtdiff_betamean_1_rtdiff_0.png){.absolute top=15% left=55% height=70%}
+
+::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+## Spurious brain-behavior correlations
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1.2em;"}
+- When overall BOLD response (acrross all conditions) differs by some subject feature (e.g. age), then this lead to spurious brain-behavior associations with that feature
+  - Even when there is no true relationship between age and activation (condition differences) or RT!
+:::
+::::
+
+![](./images/suprious_BBA_nort.png){.absolute top=15% left=55% height=70%}
+
+::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+## Can it be fixed by regressing out RT at the group level?
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1.2em;"}
+- No!
+    - Simulations show that regressing RT out at the group level could actually *increase* the size of the spurious effect.
+:::
+::::
+
+::: {.absolute top=20% left=65% style="font-size: 1.2em; text-align: left;"}
+Without RT regressor in group model:
+
+|     | **t**    | **p**      |
+|-----|-------|--------|
+| Age | 2.698 |  0.008 |
+:::
+
+::: {.absolute top=60% left=65% style="font-size: 1.2em; text-align: left;"}
+With RT regressor in group model:
+
+|     | t     | p      |
+|-----|-------|--------|
+| Age | 7.163 |  0.000 |
+:::
+
+::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
+:::
+
+
+## Solution: Model RT at the first level
+
 
 ![](./images/model_explainer_new.png-1.png){.absolute top=15% left=0% height=55%}
 
@@ -273,7 +304,7 @@ The standard model
 :::
 
 ::: {.absolute top=37% left=80% style="font-size: 1.2em; text-align: center;"}
-The Grinband et al. (2011) model
+The Grinband et al. (2008) model
 :::
 
 ::: {.absolute top=50% left=70% style="font-size: 3em; text-align: center;"}
@@ -286,21 +317,16 @@ The Mumford et al. model
 
 
 ::: {.absolute top=80% left=0% style="font-size: 1.5em; text-align: center;"}
-The ConsDurRT model allows understanding of the unique contributions of time on task and condition differences
+The Constant Duration + RT model allows quantification of the unique contributions of time on task and condition differences
 :::
 
-::: {.absolute top=100% left=10% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
 
+## Are we throwing out the baby with the bathwater?
 
-##
-
-
-::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
-Are we throwing out the baby with the bathwater?
-:::
 
 ![](./images/grinband_2011_fig2.jpg){.absolute top=15% left=15% height=40%}
 
@@ -315,11 +341,8 @@ Activation for Stroop effect disappears after removing RT effect
 Grinband et al., 2011 (N = 23)
 :::
 
-##
+## With sufficient power, we can find specific effects even after removing RT
 
-![](./images/stroop_activation_ConsDurNoRT.png){.absolute top=20% left=-10% height=90%}
-
-![](./images/stroop_activation_ConsDurRT.png){.absolute top=15% left=46% height=95%}
 
 ::: {.absolute top=20% left=10% style="font-size: 1.25em; text-align: center;"}
 Without RT modeling
@@ -330,111 +353,58 @@ With RT modeling
 :::
 
 
-::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
-With sufficient power, we can find specific effects even after removing RT
-:::
 
 ::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
 Bissett et al., unpublished
 :::
 
+## Modeling RT at the first level prevents suprious relations with RT and other correlates of activation
 
-##
+![](./images/suprious_BBA_rt.png){.absolute top=15% left=0% height=70%}
 
-::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
-Modeling response times is essential to valid interpretation of activation results.
+::: {.absolute top=20% left=65% style="font-size: 1.2em; text-align: left;"}
+Without first-level RT modeling:
+
+|     | **t**    | **p**      |
+|-----|-------|--------|
+| Age | 2.698 |  0.008 |
 :::
 
-::: {.absolute top=60% left=10% style="font-size: 2em; text-align: center;"}
-What about brain-behavior associations?
-:::
+::: {.absolute top=60% left=65% style="font-size: 1.2em; text-align: left;"}
+With first-level RT modeling:
 
-
-## 
-
-![](./images/tmap_corr_noRT_slice.png){.absolute top=40% left=0% height=60%}
-
-
-![](./images/scatterplot_ConstDurNoRT_roi0.png){.absolute top=40% left=35% height=60%}
-
-::: {.absolute top=25% left=5% style="font-size: 1.25em; text-align: center;"}
-Without RT modeling
+|     | **t**    | **p**      |
+|-----|-------|--------|
+| Age | 0.562  | 0.575 |
 :::
 
 
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-Unmodeled RT effects from first level can leak into the second level
-:::
-
-::: {.absolute top=120% left=35% style="font-size: 1.25em; text-align: center;"}
-Mumford et al., 2023, BioRxiV
-:::
-
-## 
-
-![](./images/tmap_corr_noRT_slice.png){.absolute top=40% left=0% height=60%}
-
-
-![](./images/tmap_corr_RT_slice.png){.absolute top=40% left=70% height=60%}
-
-
-![](./images/scatterplot_ConstDurNoRT_roi0.png){.absolute top=40% left=35% height=60%}
-
-::: {.absolute top=25% left=5% style="font-size: 1.25em; text-align: center;"}
-Without RT modeling
-:::
-
-::: {.absolute top=25% left=75% style="font-size: 1.25em; text-align: center;"}
-With RT modeling
+::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+Mumford et al, 2023
 :::
 
 
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-Unmodeled RT effects from first level can leak into the second level
-:::
+## Confound modeling is not a magic balm
 
-::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
-Mumford et al., 2023, BioRxiV
-:::
-
-
-## 
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-Unmodeled RT effects from first level can leak into the second level
+::: {.absolute top=10% width=65% left=0% style="font-size: 1.1em; text-align: left;"}
+- There is a general sense evident from brain-behavior association studies that regression can magically cure all that ails us
+- Simply adding regressors will not fix many problems, and can cause others
+  - Collider bias
+    - When a confound regressor is a common effect of X and Y variables
+  - Measurement error (Westfall & Yarkoni, 2016)
+    - When confound variables are measured with error, including them can inflate error rates (sometimes to nearly 100%)
+- We need a greater focus on causal justification for our statistical models (Wysocki et al., 2022)
 :::
 
 
-::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
-Anything that correlates with RT can then correlate (spuriously) with activation
-:::
+![](./images/US-MagicBalm-2oz-Arnica_Menthol-600_grande-edited.jpg){.absolute top=15% left=65% height=70%}
 
-## 
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-RT effects cannot be removed by including RT in the group-level model
-:::
-
-
-::: {.absolute top=30% left=5% style="font-size: 2em; text-align: center;"}
-In fact, this can actually induce artifactual correlations!
-:::
-
-::: {.absolute top=120% left=35% style="font-size: 1.25em; text-align: center;"}
-Mumford et al., 2023, BioRxiV
-:::
-
-##
-
-::: {.absolute top=0% left=5% style="font-size: 2em; text-align: center;"}
-Conclusions
-:::
+## Conclusions
 
 ::: {.absolute top=10% left=5% style="font-size: 1.5em; text-align: center;"}
 - Response time is a major potential confound for all task fMRI studies
   - Without adjustment, it is impossible to determine whether activations simply reflect time on task
-- If response time effects are not modeled at the first level, they can creep into the group analysis
+- If response time effects are not modeled at the first level, they can result in sprious brain-behavior assocaitions
 - This poses a major problem for large projects that share statistical results from first-level models that do not include RT
 
 :::
