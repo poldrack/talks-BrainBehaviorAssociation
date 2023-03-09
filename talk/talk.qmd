@@ -1,5 +1,5 @@
 ---
-title: "Improving the interpretability and validity of brain-behavior relations" 
+title: "Improving the validity of brain-behavior associations" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -39,28 +39,77 @@ Conclude by highlighting that the interpretation of correlations is fraught and 
 -->
 
 
-![](./images/inference_cascade.png){.absolute top=0% left=8% height=100%}
-
-::: {.absolute top=0% left=0% width=40% style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
 What does a brain-behavior association mean?
 :::
 
-
-## 
-
-![](./images/causal_model_latentonly.png){.absolute top=55% left=10% height=41%}
-
-![](./images/whitebox.png){.absolute top=55% left=-10% height=40%}
+##
 
 
-## 
+::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
+What does a brain-behavior association mean?
+:::
 
-![](./images/causal_model.png){.absolute top=0% left=8% height=100%}
+![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+
+##
+
+::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
+What does a brain-behavior association mean?
+:::
+
+![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
 
 
 ##
 
-::: {.absolute top=30% left=10% style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
+What does a brain-behavior association mean?
+:::
+
+![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/charan.jpg){.absolute top=18% left=80% height=20%}
+![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
+
+##
+
+::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
+What does a brain-behavior association mean?
+:::
+
+![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/charan.jpg){.absolute top=18% left=80% height=20%}
+![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
+![](./images/rp_guitar.png){.absolute top=60% left=60% height=12%}
+
+
+
+
+## 
+
+![](./images/causal_model_latentonly.png){.absolute top=53% left=10% height=38%}
+
+![](./images/whitebox.png){.absolute top=50% left=-10% height=40%}
+
+
+## 
+
+![](./images/causal_model.png){.absolute top=0% left=8% height=90%}
+
+## 
+
+![](./images/causal_model_assoc.png){.absolute top=0% left=8% height=90%}
+
+## 
+
+![](./images/causal_model_assoc2.png){.absolute top=1% left=8% height=90%}
+
+
+
+##
+
+::: {.absolute top=30% left=0% style="font-size: 1.5em; text-align: center;"}
 Assuming this model is true, what kinds of neural differences could give rise to cognitive differences?
 :::
 
@@ -96,7 +145,7 @@ Is this really an explanation?
 - The Prius uses half as much fuel as the Porsche.  How do we explain this?
 :::
 
-![](./images/porsche-prius1.jpg){.absolute top=20% left=55% height=50%}
+![](./images/porsche-prius1.jpg){.absolute top=20% left=55% height=45%}
 
 
 ##  Efficiency: A thought experiment {style="font-size: 1.5em;"}
@@ -118,7 +167,7 @@ Poldrack, 2015
 
 - "Efficiency" is a non-explanation
     - It simply renames the phenomenon
-- What kinds of neural differences might explain these associations?
+- What kinds of neural differences might actually explain these associations?
     - Different intensity of neuronal activity
     - Different duration of neuronal activity
 
@@ -126,7 +175,7 @@ Poldrack, 2015
 
 ## 
 
-![](./images/rate_stim_intensity.png){.absolute top=15% left=5% height=80%}
+![](./images/rate_stim_intensity.png){.absolute top=15% left=10% height=70%}
 
 ![](./images/charan.jpg){.absolute top=0% left=0% height=40%}
 
@@ -137,7 +186,7 @@ Difference in intensity of neural activity
 
 ##
 
-![](./images/rate_stim_duration.png){.absolute top=15% left=5% height=80%}
+![](./images/rate_stim_duration.png){.absolute top=15% left=10% height=70%}
 
 
 ::: {.absolute top=0% left=15% style="font-size: 1.8em; text-align: center;"}
@@ -157,7 +206,7 @@ Changes in rate vs. duration of neural firing are indistinguishable in fMRI
 Same duration, different amplitude
 :::
 
-![](./images/intensity_conv.png){.absolute top=15% left=20% height=80%}
+![](./images/intensity_conv.png){.absolute top=15% left=20% height=75%}
 
 ##
 
@@ -165,13 +214,13 @@ Same duration, different amplitude
 Same amplitude, different duration
 :::
 
-![](./images/duration_conv.png){.absolute top=15% left=20% height=80%}
+![](./images/duration_conv.png){.absolute top=15% left=20% height=75%}
 
 
 
 ##
 
-![](./images/intensity_duration_conv.png){.absolute top=15% left=20% height=80%}
+![](./images/intensity_duration_conv.png){.absolute top=15% left=20% height=75%}
 
 ::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
 The effects of amplitude and duration are indistinguishable in the fMRI signal
@@ -183,12 +232,12 @@ The effects of amplitude and duration are indistinguishable in the fMRI signal
 - In cognitive psychology, differences in RT are the measure of interest
   - Thus, nearly all task comparisons will exhibit a difference in RT
 
-::: {.absolute top=100% left=0% style="font-size: 0.8em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 0.7em; text-align: center;"}
 Mumford et al, 2023
 :::
 
 
-## The response time paradox {style="font-size: 1.5em;"}
+## The response time paradox {style="font-size: 1.3em;"}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -198,27 +247,35 @@ Mumford et al, 2023
 :::
 ::::
 
-::: {.absolute top=100% left=0% style="font-size: 0.8em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 0.8em; text-align: center;"}
 Mumford et al, 2023
 :::
 
-![](./images/causal_model_reversecausality.png){.absolute top=10% left=50% height=60%}
+![](./images/causal_model_guitar_rev.png){.absolute top=10% left=50% height=60%}
 
 ## Response time correlates in fMRI are very strong
 
 
-![](./images/conjunction_avg_rt_effect_across_7tasks_3row_plot.png){.absolute top=12% left=45% height=85%}
+![](./images/conjunction_avg_rt_effect_across_7tasks_3row_plot.png){.absolute top=10% left=40% height=85%}
 
-![](./images/yarkoni_RT_corr.png){.absolute top=20% left=0% height=70%}
+::: {.absolute top=13% left=58% style="font-size: 1em; text-align: center;"}
+Conjunction across 7 tasks
+:::
 
+![](./images/yarkoni_RT_corr.png){.absolute top=20% left=0% height=60%}
+
+::: {.absolute top=13% left=10% style="font-size: 1em; text-align: center;"}
+Conjunction across 4 tasks
+:::
 
 ::: {.absolute top=100% left=15% style="font-size: 1em; text-align: center;"}
 Yarkoni et al., 2009
 :::
 
-::: {.absolute top=100% left=65% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=97% left=65% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
+
 
 ## What about brain-behavior associations?
 
@@ -226,16 +283,34 @@ Mumford et al, 2023
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 1.2em;"}
 - Under the standard analysis approach (ignoring RT), if there are:
-  - differences in the overall amount of activation (regardless of condition) across people
+  - differences in the overall BOLD response (regardless of condition) across people
+  - variability in the RT difference between conditions across people
+
+:::
+::::
+
+![](./images/bold_intensity_1.png){.absolute top=5% left=55% height=30%}
+
+![](./images/bold_intensity_2.png){.absolute top=40% left=55% height=30%}
+
+
+
+## What about brain-behavior associations?
+
+
+:::: {.columns}
+::: {.column width="50%" style="font-size: 1.2em;"}
+- Under the standard analysis approach (ignoring RT), if there are:
+  - differences in the overall BOLD response (regardless of condition) across people
   - variability in the RT difference between conditions across people
 - This can induce an artifactual correlation between activation (between-condition comparisons) and the RT difference.
   - Even if the average RT difference between conditions is zero across subjects!
 :::
 ::::
 
-![](./images/effect_vs_rtdiff_betamean_1_rtdiff_0.png){.absolute top=15% left=55% height=70%}
+![](./images/effect_vs_rtdiff_betamean_1_rtdiff_0.png){.absolute top=15% left=55% height=60%}
 
-::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -244,14 +319,14 @@ Mumford et al, 2023
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 1.2em;"}
-- When overall BOLD response (acrross all conditions) differs by some subject feature (e.g. age), then this lead to spurious brain-behavior associations with that feature
+- When overall BOLD response (across all conditions) differs by some subject feature (e.g. age), then this can lead to spurious brain-behavior associations with that feature
   - Even when there is no true relationship between age and activation (condition differences) or RT!
 :::
 ::::
 
-![](./images/suprious_BBA_nort.png){.absolute top=15% left=55% height=70%}
+![](./images/suprious_BBA_nort.png){.absolute top=15% left=55% height=60%}
 
-::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -280,7 +355,7 @@ With RT regressor in group model:
 | Age | 7.163 |  0.000 |
 :::
 
-::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -316,11 +391,11 @@ The Mumford et al. model
 :::
 
 
-::: {.absolute top=80% left=0% style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=75% left=0% style="font-size: 1.5em; text-align: center;"}
 The Constant Duration + RT model allows quantification of the unique contributions of time on task and condition differences
 :::
 
-::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -328,11 +403,11 @@ Mumford et al, 2023
 ## Are we throwing out the baby with the bathwater?
 
 
-![](./images/grinband_2011_fig2.jpg){.absolute top=15% left=15% height=40%}
+![](./images/grinband_2011_fig2.jpg){.absolute top=10% left=15% height=35%}
 
-![](./images/grinband_2011_fig5.jpg){.absolute top=65% left=15% height=36%}
+![](./images/grinband_2011_fig5.jpg){.absolute top=55% left=13% height=33%}
 
-::: {.absolute top=57% left=10% style="font-size: 1.25em; text-align: center;"}
+::: {.absolute top=45% left=8% style="font-size: 1.25em; text-align: center;"}
 Activation for Stroop effect disappears after removing RT effect
 :::
 
@@ -341,24 +416,113 @@ Activation for Stroop effect disappears after removing RT effect
 Grinband et al., 2011 (N = 23)
 :::
 
-## With sufficient power, we can find specific effects even after removing RT
+
+## With sufficient power, we can (sometimes) find specific effects after removing RT
 
 
-::: {.absolute top=20% left=10% style="font-size: 1.25em; text-align: center;"}
+::: {.absolute top=20% left=22% style="font-size: 1.25em; text-align: center;"}
 Without RT modeling
+:::
+
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+
+::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
+Stroop
+
+(inc - con)
 :::
 
 ::: {.absolute top=20% left=65% style="font-size: 1.25em; text-align: center;"}
 With RT modeling
 :::
 
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+
+
+
+
+## With sufficient power, we can (sometimes) find specific effects after removing RT
+
+
+::: {.absolute top=20% left=22% style="font-size: 1.25em; text-align: center;"}
+Without RT modeling
+:::
+
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+
+::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
+Stroop
+
+(inc - con)
+:::
+
+::: {.absolute top=20% left=65% style="font-size: 1.25em; text-align: center;"}
+With RT modeling
+:::
+
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+
+
+::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
+Task switching
+
+(SW - NS)
+:::
+
+![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=20%}
+
+![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=20%}
+
+
+## With sufficient power, we can (sometimes) find specific effects after removing RT
+
+
+::: {.absolute top=20% left=22% style="font-size: 1.25em; text-align: center;"}
+Without RT modeling
+:::
+
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+
+::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
+Stroop
+
+(inc - con)
+:::
+
+::: {.absolute top=20% left=65% style="font-size: 1.25em; text-align: center;"}
+With RT modeling
+:::
+
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+
+
+::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
+Task switching
+
+(SW - NS)
+:::
+
+![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=20%}
+
+![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=20%}
+
+
+::: {.absolute top=72% left=-1% style="font-size: 1.25em; text-align: center;"}
+Stop signal
+
+(FS - go)
+:::
+
+![](./images/stopSignal_stop_failure-go_ConsDurNoRT.png){.absolute top=70% left=15% height=20%}
+
+![](./images/stopSignal_stop_failure-go_ConsDurRT.png){.absolute top=70% left=60% height=20%}
 
 
 ::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
 Bissett et al., unpublished
 :::
 
-## Modeling RT at the first level prevents suprious relations with RT and other correlates of activation
+## Modeling RT at the first level prevents suprious relations with RT and other correlates of BOLD response
 
 ![](./images/suprious_BBA_rt.png){.absolute top=15% left=0% height=70%}
 
@@ -397,21 +561,18 @@ Mumford et al, 2023
 :::
 
 
-![](./images/US-MagicBalm-2oz-Arnica_Menthol-600_grande-edited.jpg){.absolute top=15% left=65% height=70%}
+![](./images/US-MagicBalm-2oz-Arnica_Menthol-600_grande-edited.jpg){.absolute top=15% left=65% height=60%}
 
-## Conclusions
+## Conclusions {style="font-size: 1.5em;"}
 
-::: {.absolute top=10% left=5% style="font-size: 1.5em; text-align: center;"}
 - Response time is a major potential confound for all task fMRI studies
   - Without adjustment, it is impossible to determine whether activations simply reflect time on task
-- If response time effects are not modeled at the first level, they can result in sprious brain-behavior assocaitions
+- If response time effects are not modeled at the first level, they can result in sprious brain-behavior associations
 - This poses a major problem for large projects that share statistical results from first-level models that do not include RT
-
-:::
 
 ## 
 
-::: {.absolute top=0% left=10% style="font-size: 2em; text-align: center;"}
+::: {.absolute top=0% left=0% style="font-size: 2em; text-align: center;"}
 Acknowledgments
 :::
 
@@ -419,7 +580,7 @@ Acknowledgments
 The Poldrack Lab
 :::
 
-![](./images/poldracklab_2022.png){.absolute top=20% left=5% height=45%}
+![](./images/poldracklab_2022.png){.absolute top=20% left=5% height=40%}
 
 ![](./images/cropped_jmumford.jpg){.absolute top=20% left=57% height=35%}
 
@@ -429,43 +590,11 @@ Jeanette Mumford
 
 
 
-![](./images/brain_initiative_logo.png){.absolute top=75% left=5% height=30%}
-![](./images/nsf_logo.png){.absolute top=75% left=32% height=25%}
-![](./images/NIH-NIMH-logo-new.png){.absolute top=80% left=55% height=15%}
+![](./images/brain_initiative_logo.png){.absolute top=65% left=5% height=25%}
+![](./images/nsf_logo.png){.absolute top=65% left=32% height=20%}
+![](./images/NIH-NIMH-logo-new.png){.absolute top=75% left=55% height=15%}
 
-::: {.absolute top=67% left=45% style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=60% left=45% style="font-size: 1.5em; text-align: center;"}
 Funding
 :::
-
-
-##
-
-##
-
-How should we address potential confounds in brain-behavior association analyses?
-
-- "Statistical control"
-  - Put every possible confound into the group-level model
-- Three problems with this:
-  - It doesn't work for RT
-  - It can result in false positives when confounds are measured with error
-  - Conditioning on a common effect can result in incorrect inferences
-
-
-
-## The problem of measurement error in regression
-
-- yarkoni/westfall
-
-
-## Collider bias
-
-
-## An example of collider bias: Selection bias
-
-
-## What can we do?
-
-
-## Acknowledgments
 
