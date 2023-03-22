@@ -67,7 +67,7 @@
     "href": "talk.html#efficiency-a-thought-experiment-1",
     "title": "Improving the validity of brain-behavior associations",
     "section": "Efficiency: A thought experiment",
-    "text": "Efficiency: A thought experiment\n\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\nThe Prius is more efﬁcient.\n\n\n\nPoldrack, 2015"
+    "text": "Efficiency: A thought experiment\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\n\n\nPoldrack, 2015"
   },
   {
     "objectID": "talk.html#explaining-brain-behavior-associations",
@@ -147,6 +147,13 @@
     "text": "What about brain-behavior associations?\n\n\n\nUnder the standard analysis approach (ignoring RT), if there are:\n\ndifferences in the overall BOLD response (regardless of condition) across people\nvariability in the RT difference between conditions across people"
   },
   {
+    "objectID": "talk.html#what-about-brain-behavior-associations-1",
+    "href": "talk.html#what-about-brain-behavior-associations-1",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "What about brain-behavior associations?",
+    "text": "What about brain-behavior associations?\n\n\n\nUnder the standard analysis approach (ignoring RT), if there are:\n\ndifferences in the overall BOLD response (regardless of condition) across people\nvariability in the RT difference between conditions across people\n\nThis can induce an artifactual correlation between activation (between-condition comparisons) and the RT difference.\n\nEven if the average RT difference between conditions is zero across subjects!\n\n\n\n\n\n\nMumford et al, 2023"
+  },
+  {
     "objectID": "talk.html#spurious-brain-behavior-correlations",
     "href": "talk.html#spurious-brain-behavior-correlations",
     "title": "Improving the validity of brain-behavior associations",
@@ -175,62 +182,6 @@
     "text": "Are we throwing out the baby with the bathwater?\n\n\n\nActivation for Stroop effect disappears after removing RT effect\n\n\nGrinband et al., 2011 (N = 23)"
   },
   {
-    "objectID": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt",
-    "href": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "With sufficient power, we can find specific effects even after removing RT",
-    "text": "With sufficient power, we can find specific effects even after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling"
-  },
-  {
-    "objectID": "talk.html#modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-bold-response",
-    "href": "talk.html#modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-bold-response",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "Modeling RT at the first level prevents suprious relations with RT and other correlates of BOLD response",
-    "text": "Modeling RT at the first level prevents suprious relations with RT and other correlates of BOLD response\n\n\nWithout first-level RT modeling:\n\n\n\n\nt\np\n\n\n\n\nAge\n2.698\n0.008\n\n\n\n\n\nWith first-level RT modeling:\n\n\n\n\nt\np\n\n\n\n\nAge\n0.562\n0.575\n\n\n\n\n\nMumford et al, 2023"
-  },
-  {
-    "objectID": "talk.html#confound-modeling-is-not-a-magic-balm",
-    "href": "talk.html#confound-modeling-is-not-a-magic-balm",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "Confound modeling is not a magic balm",
-    "text": "Confound modeling is not a magic balm\n\n\nThere is a general sense evident from brain-behavior association studies that regression can magically cure all that ails us\nSimply adding regressors will not fix many problems, and can cause others\n\nCollider bias\n\nWhen a confound regressor is a common effect of X and Y variables\n\nMeasurement error (Westfall & Yarkoni, 2016)\n\nWhen confound variables are measured with error, including them can inflate error rates (sometimes to nearly 100%)\n\n\nWe need a greater focus on causal justification for our statistical models (Wysocki et al., 2022)"
-  },
-  {
-    "objectID": "talk.html#conclusions",
-    "href": "talk.html#conclusions",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "Conclusions",
-    "text": "Conclusions\n\nResponse time is a major potential confound for all task fMRI studies\n\nWithout adjustment, it is impossible to determine whether activations simply reflect time on task\n\nIf response time effects are not modeled at the first level, they can result in sprious brain-behavior associations\nThis poses a major problem for large projects that share statistical results from first-level models that do not include RT"
-  },
-  {
-    "objectID": "talk.html#section-16",
-    "href": "talk.html#section-16",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "",
-    "text": "Acknowledgments\n\n\nThe Poldrack Lab\n\n\n\n\nJeanette Mumford\n\n  \n\nFunding\n\n\n\nhttps://poldrack.github.io/talks-BrainBehaviorAssociation/"
-  },
-  {
-    "objectID": "talk.html#what-about-brain-behavior-associations-1",
-    "href": "talk.html#what-about-brain-behavior-associations-1",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "What about brain-behavior associations?",
-    "text": "What about brain-behavior associations?\n\n\n\nUnder the standard analysis approach (ignoring RT), if there are:\n\ndifferences in the overall BOLD response (regardless of condition) across people\nvariability in the RT difference between conditions across people\n\nThis can induce an artifactual correlation between activation (between-condition comparisons) and the RT difference.\n\nEven if the average RT difference between conditions is zero across subjects!\n\n\n\n\n\n\nMumford et al, 2023"
-  },
-  {
-    "objectID": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt-1",
-    "href": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt-1",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "With sufficient power, we can find specific effects even after removing RT",
-    "text": "With sufficient power, we can find specific effects even after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(SW - NS)\n\n\n\n\nStop signal\n(FS - go)\n\n\n\n\nBissett et al., unpublished"
-  },
-  {
-    "objectID": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt-2",
-    "href": "talk.html#with-sufficient-power-we-can-find-specific-effects-even-after-removing-rt-2",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "With sufficient power, we can find specific effects even after removing RT",
-    "text": "With sufficient power, we can find specific effects even after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(SW - NS)\n\n\n\n\nStop signal\n(FS - go)\n\n\n\n\nBissett et al., unpublished"
-  },
-  {
     "objectID": "talk.html#with-sufficient-power-we-can-sometimes-find-specific-effects-after-removing-rt",
     "href": "talk.html#with-sufficient-power-we-can-sometimes-find-specific-effects-after-removing-rt",
     "title": "Improving the validity of brain-behavior associations",
@@ -250,5 +201,40 @@
     "title": "Improving the validity of brain-behavior associations",
     "section": "With sufficient power, we can (sometimes) find specific effects after removing RT",
     "text": "With sufficient power, we can (sometimes) find specific effects after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(SW - NS)\n\n\n\n\nStop signal\n(FS - go)\n\n\n\n\nBissett et al., unpublished"
+  },
+  {
+    "objectID": "talk.html#modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-bold-response",
+    "href": "talk.html#modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-bold-response",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "Modeling RT at the first level prevents suprious relations with RT and other correlates of BOLD response",
+    "text": "Modeling RT at the first level prevents suprious relations with RT and other correlates of BOLD response\n\n\nWithout first-level RT modeling:\n\n\n\n\nt\np\n\n\n\n\nAge\n2.698\n0.008\n\n\n\n\n\nWith first-level RT modeling:\n\n\n\n\nt\np\n\n\n\n\nAge\n0.562\n0.575\n\n\n\n\n\nMumford et al, 2023"
+  },
+  {
+    "objectID": "talk.html#confound-modeling-is-not-a-magic-balm",
+    "href": "talk.html#confound-modeling-is-not-a-magic-balm",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "Confound modeling is not a magic balm",
+    "text": "Confound modeling is not a magic balm\n\n\nThere is a general sense evident from brain-behavior association studies that regression can magically cure all that ails us\nSimply adding regressors will not fix many problems, and can cause others\n\nCollider bias\n\nWhen a confound regressor is a common effect of X and Y variables\n\nMeasurement error (Westfall & Yarkoni, 2016)\n\nWhen confound variables are measured with error, including them can inflate error rates (sometimes to nearly 100%)\n\n\nWe need a greater focus on causal justification for our statistical models (Wysocki et al., 2022; Kopal et al., 2023)"
+  },
+  {
+    "objectID": "talk.html#conclusions",
+    "href": "talk.html#conclusions",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nResponse time is a major potential confound for all task fMRI studies\n\nWithout adjustment, it is impossible to determine whether activations simply reflect time on task\n\nIf response time effects are not modeled at the first level, they can result in sprious brain-behavior associations\nThis poses a major problem for large projects that share statistical results from first-level models that do not include RT"
+  },
+  {
+    "objectID": "talk.html#section-16",
+    "href": "talk.html#section-16",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "",
+    "text": "Acknowledgments\n\n\nThe Poldrack Lab\n\n\n\n\nJeanette Mumford\n\n  \n\nFunding\n\n\n\nhttps://poldrack.github.io/talks-BrainBehaviorAssociation/"
+  },
+  {
+    "objectID": "talk.html#efficiency-a-thought-experiment-2",
+    "href": "talk.html#efficiency-a-thought-experiment-2",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "Efficiency: A thought experiment",
+    "text": "Efficiency: A thought experiment\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\nThe Prius is more efﬁcient.\n\n\nPoldrack, 2015"
   }
 ]

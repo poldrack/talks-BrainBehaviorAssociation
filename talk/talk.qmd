@@ -150,16 +150,27 @@ Is this really an explanation?
 
 ##  Efficiency: A thought experiment {style="font-size: 1.5em;"}
 
-::: {.incremental}
+1. The Prius has a gas-electric hybrid engine (which uses
+surplus engine power to generate electricity which is
+then turned back into drive power) and regenerative
+braking (which captures energy that would otherwise
+be lost as heat).
+
+::: {.absolute top=85% left=0% style="font-size: 0.8em; text-align: center;"}
+Poldrack, 2015
+:::
+
+
+##  Efficiency: A thought experiment {style="font-size: 1.5em;"}
+
 1. The Prius has a gas-electric hybrid engine (which uses
 surplus engine power to generate electricity which is
 then turned back into drive power) and regenerative
 braking (which captures energy that would otherwise
 be lost as heat).
 2. The Prius is more efﬁcient. 
-:::
 
-::: {.absolute top=95% left=0% style="font-size: 0.8em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 0.8em; text-align: center;"}
 Poldrack, 2015
 :::
 
@@ -232,7 +243,7 @@ The effects of amplitude and duration are indistinguishable in the fMRI signal
 - In cognitive psychology, differences in RT are the measure of interest
   - Thus, nearly all task comparisons will exhibit a difference in RT
 
-::: {.absolute top=97% left=0% style="font-size: 0.7em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 0.7em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -247,7 +258,7 @@ Mumford et al, 2023
 :::
 ::::
 
-::: {.absolute top=97% left=0% style="font-size: 0.8em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 0.8em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -268,11 +279,11 @@ Conjunction across 7 tasks
 Conjunction across 4 tasks
 :::
 
-::: {.absolute top=100% left=15% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=15% style="font-size: 1em; text-align: center;"}
 Yarkoni et al., 2009
 :::
 
-::: {.absolute top=97% left=65% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=65% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -281,7 +292,7 @@ Mumford et al, 2023
 
 
 :::: {.columns}
-::: {.column width="50%" style="font-size: 1.2em;"}
+::: {.column width="50%" style="font-size: 1.1em;"}
 - Under the standard analysis approach (ignoring RT), if there are:
   - differences in the overall BOLD response (regardless of condition) across people
   - variability in the RT difference between conditions across people
@@ -299,7 +310,7 @@ Mumford et al, 2023
 
 
 :::: {.columns}
-::: {.column width="50%" style="font-size: 1.2em;"}
+::: {.column width="50%" style="font-size: 1.1em;"}
 - Under the standard analysis approach (ignoring RT), if there are:
   - differences in the overall BOLD response (regardless of condition) across people
   - variability in the RT difference between conditions across people
@@ -310,7 +321,7 @@ Mumford et al, 2023
 
 ![](./images/effect_vs_rtdiff_betamean_1_rtdiff_0.png){.absolute top=15% left=55% height=60%}
 
-::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -326,7 +337,7 @@ Mumford et al, 2023
 
 ![](./images/suprious_BBA_nort.png){.absolute top=15% left=55% height=60%}
 
-::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -355,7 +366,7 @@ With RT regressor in group model:
 | Age | 7.163 |  0.000 |
 :::
 
-::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -391,11 +402,11 @@ The Mumford et al. model
 :::
 
 
-::: {.absolute top=75% left=0% style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=72% left=0% style="font-size: 1.4em; text-align: center;"}
 The Constant Duration + RT model allows quantification of the unique contributions of time on task and condition differences
 :::
 
-::: {.absolute top=97% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -412,7 +423,7 @@ Activation for Stroop effect disappears after removing RT effect
 :::
 
 
-::: {.absolute top=99% left=35% style="font-size: 1.25em; text-align: center;"}
+::: {.absolute top=87% left=32% style="font-size: 1.25em; text-align: center;"}
 Grinband et al., 2011 (N = 23)
 :::
 
@@ -424,7 +435,7 @@ Grinband et al., 2011 (N = 23)
 Without RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=18%}
 
 ::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
 Stroop
@@ -436,7 +447,7 @@ Stroop
 With RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=18%}
 
 
 
@@ -448,7 +459,7 @@ With RT modeling
 Without RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=18%}
 
 ::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
 Stroop
@@ -460,7 +471,7 @@ Stroop
 With RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=18%}
 
 
 ::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
@@ -469,9 +480,9 @@ Task switching
 (SW - NS)
 :::
 
-![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=20%}
+![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=18%}
 
-![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=20%}
+![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=18%}
 
 
 ## With sufficient power, we can (sometimes) find specific effects after removing RT
@@ -481,7 +492,7 @@ Task switching
 Without RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurNoRT.png){.absolute top=30% left=15% height=18%}
 
 ::: {.absolute top=35% left=0% style="font-size: 1.25em; text-align: center;"}
 Stroop
@@ -493,7 +504,7 @@ Stroop
 With RT modeling
 :::
 
-![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=20%}
+![](./images/stroop_stroop_incong_minus_cong_ConsDurRT.png){.absolute top=30% left=60% height=18%}
 
 
 ::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
@@ -502,9 +513,9 @@ Task switching
 (SW - NS)
 :::
 
-![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=20%}
+![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=18%}
 
-![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=20%}
+![](./images/twoByTwo_task_switch_cost_100_ConsDurRT.png){.absolute top=50% left=60% height=18%}
 
 
 ::: {.absolute top=72% left=-1% style="font-size: 1.25em; text-align: center;"}
@@ -513,12 +524,12 @@ Stop signal
 (FS - go)
 :::
 
-![](./images/stopSignal_stop_failure-go_ConsDurNoRT.png){.absolute top=70% left=15% height=20%}
+![](./images/stopSignal_stop_failure-go_ConsDurNoRT.png){.absolute top=70% left=15% height=18%}
 
-![](./images/stopSignal_stop_failure-go_ConsDurRT.png){.absolute top=70% left=60% height=20%}
+![](./images/stopSignal_stop_failure-go_ConsDurRT.png){.absolute top=70% left=60% height=18%}
 
 
-::: {.absolute top=100% left=35% style="font-size: 1.25em; text-align: center;"}
+::: {.absolute top=88% left=35% style="font-size: 1.25em; text-align: center;"}
 Bissett et al., unpublished
 :::
 
@@ -543,7 +554,7 @@ With first-level RT modeling:
 :::
 
 
-::: {.absolute top=100% left=0% style="font-size: 1em; text-align: center;"}
+::: {.absolute top=85% left=0% style="font-size: 1em; text-align: center;"}
 Mumford et al, 2023
 :::
 
@@ -557,7 +568,7 @@ Mumford et al, 2023
     - When a confound regressor is a common effect of X and Y variables
   - Measurement error (Westfall & Yarkoni, 2016)
     - When confound variables are measured with error, including them can inflate error rates (sometimes to nearly 100%)
-- We need a greater focus on causal justification for our statistical models (Wysocki et al., 2022)
+- We need a greater focus on causal justification for our statistical models (Wysocki et al., 2022; Kopal et al., 2023)
 :::
 
 
