@@ -70,6 +70,13 @@
     "text": "Efficiency: A thought experiment\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\n\n\nPoldrack, 2015"
   },
   {
+    "objectID": "talk.html#efficiency-a-thought-experiment-2",
+    "href": "talk.html#efficiency-a-thought-experiment-2",
+    "title": "Improving the validity of brain-behavior associations",
+    "section": "Efficiency: A thought experiment",
+    "text": "Efficiency: A thought experiment\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\nThe Prius is more efﬁcient.\n\n\nPoldrack, 2015"
+  },
+  {
     "objectID": "talk.html#explaining-brain-behavior-associations",
     "href": "talk.html#explaining-brain-behavior-associations",
     "title": "Improving the validity of brain-behavior associations",
@@ -193,14 +200,14 @@
     "href": "talk.html#with-sufficient-power-we-can-sometimes-find-specific-effects-after-removing-rt-1",
     "title": "Improving the validity of brain-behavior associations",
     "section": "With sufficient power, we can (sometimes) find specific effects after removing RT",
-    "text": "With sufficient power, we can (sometimes) find specific effects after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(SW - NS)"
+    "text": "With sufficient power, we can (sometimes) find specific effects after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(TS - CS)"
   },
   {
     "objectID": "talk.html#with-sufficient-power-we-can-sometimes-find-specific-effects-after-removing-rt-2",
     "href": "talk.html#with-sufficient-power-we-can-sometimes-find-specific-effects-after-removing-rt-2",
     "title": "Improving the validity of brain-behavior associations",
     "section": "With sufficient power, we can (sometimes) find specific effects after removing RT",
-    "text": "With sufficient power, we can (sometimes) find specific effects after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(SW - NS)\n\n\n\n\nStop signal\n(FS - go)\n\n\n\n\nBissett et al., unpublished"
+    "text": "With sufficient power, we can (sometimes) find specific effects after removing RT\n\nWithout RT modeling\n\n\n\nStroop\n(inc - con)\n\n\nWith RT modeling\n\n\n\nTask switching\n(TS - CS)\n\n\n\n\nStop signal\n(FS - go)\n\n\n\n\nBissett et al., unpublished"
   },
   {
     "objectID": "talk.html#modeling-rt-at-the-first-level-prevents-suprious-relations-with-rt-and-other-correlates-of-bold-response",
@@ -229,12 +236,5 @@
     "title": "Improving the validity of brain-behavior associations",
     "section": "",
     "text": "Acknowledgments\n\n\nThe Poldrack Lab\n\n\n\n\nJeanette Mumford\n\n  \n\nFunding\n\n\n\nhttps://poldrack.github.io/talks-BrainBehaviorAssociation/"
-  },
-  {
-    "objectID": "talk.html#efficiency-a-thought-experiment-2",
-    "href": "talk.html#efficiency-a-thought-experiment-2",
-    "title": "Improving the validity of brain-behavior associations",
-    "section": "Efficiency: A thought experiment",
-    "text": "Efficiency: A thought experiment\n\nThe Prius has a gas-electric hybrid engine (which uses surplus engine power to generate electricity which is then turned back into drive power) and regenerative braking (which captures energy that would otherwise be lost as heat).\nThe Prius is more efﬁcient.\n\n\nPoldrack, 2015"
   }
 ]

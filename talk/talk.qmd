@@ -477,7 +477,7 @@ With RT modeling
 ::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
 Task switching
 
-(SW - NS)
+(TS - CS)
 :::
 
 ![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=18%}
@@ -510,7 +510,7 @@ With RT modeling
 ::: {.absolute top=54% left=-3% style="font-size: 1.25em; text-align: center;"}
 Task switching
 
-(SW - NS)
+(TS - CS)
 :::
 
 ![](./images/twoByTwo_task_switch_cost_100_ConsDurNoRT.png){.absolute top=50% left=15% height=18%}
