@@ -49,8 +49,8 @@ What does a brain-behavior association mean?
 ::: {.absolute top=0% left=0% style="font-size: 1.5em; text-align: center;"}
 What does a brain-behavior association mean?
 :::
-
-![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/ngs_map_crop.png){.absolute top=30% left=0% height=50%}
+![](./images/brain_behavior_scatterplot.png){.absolute top=20% left=45% height=70%}
 
 ##
 
@@ -58,7 +58,9 @@ What does a brain-behavior association mean?
 What does a brain-behavior association mean?
 :::
 
-![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/ngs_map_crop.png){.absolute top=30% left=0% height=50%}
+![](./images/brain_behavior_scatterplot.png){.absolute top=20% left=45% height=70%}
+
 ![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
 
 
@@ -68,7 +70,8 @@ What does a brain-behavior association mean?
 What does a brain-behavior association mean?
 :::
 
-![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/ngs_map_crop.png){.absolute top=30% left=0% height=50%}
+![](./images/brain_behavior_scatterplot.png){.absolute top=20% left=45% height=70%}
 ![](./images/charan.jpg){.absolute top=18% left=80% height=20%}
 ![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
 
@@ -78,7 +81,8 @@ What does a brain-behavior association mean?
 What does a brain-behavior association mean?
 :::
 
-![](./images/ngs_with_scatter.png){.absolute top=20% left=0% height=70%}
+![](./images/ngs_map_crop.png){.absolute top=30% left=0% height=50%}
+![](./images/brain_behavior_scatterplot.png){.absolute top=20% left=45% height=70%}
 ![](./images/charan.jpg){.absolute top=18% left=80% height=20%}
 ![](./images/Prince_cropped.jpg){.absolute top=15% left=85% height=20%}
 ![](./images/rp_guitar.png){.absolute top=60% left=60% height=12%}
